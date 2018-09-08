@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Lucy</title>
+    <meta name="author" content="Me">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+        $('.popover-dismiss').popover({
+          trigger: 'focus'
+        })
+      })
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+
+        <h1> Lucy </h1>
+
+        <div class="row">
+          <div class="col-sm">
+            <table>
+              <thead>
+                <tr>
+                  <td>Ability</td>
+                  <td>Score</td>
+                  <td>Bonus</td>
+                </tr>
+              </thead>
+              <tbody>
+                            <tr>
+                <td>STR</td>
+                <td>18</td>
+                <td>4</td>
+              </tr>
+                            <tr>
+                <td>DEX</td>
+                <td>16</td>
+                <td>3</td>
+              </tr>
+                            <tr>
+                <td>CON</td>
+                <td>16</td>
+                <td>3</td>
+              </tr>
+                            <tr>
+                <td>INT</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+                            <tr>
+                <td>WIS</td>
+                <td>12</td>
+                <td>1</td>
+              </tr>
+                            <tr>
+                <td>CHA</td>
+                <td>15</td>
+                <td>2</td>
+              </tr>
+                            </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <h2>Equipment</h2>
+            <h3>Equipped</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Chain Shirt"
+                  data-content="A chain shirt comes with a steel cap.">
+                  Chain Shirt
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Ring of Protection +1"
+                  data-content="">
+                  Ring of Protection +1
+                </a>
+              </li>
+                        </ul>
+                          <h3>Weapons</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Greatsword +1"
+                    data-content="">
+                    Greatsword +1
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Cold Iron Guisarme"
+                    data-content="A guisarme has reach. You can strike opponents 10 feet away with it, but you can’t use it against
+                    an adjacent foe.
+                    You can also use it to make trip attacks. If you are tripped during your own trip attempt, you can
+                    drop the guisarme to avoid being tripped.
+                ">
+                    Cold Iron Guisarme
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Flail, Heavy (Silver)"
+                    data-content="With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the
+                    roll to avoid being disarmed if such an attempt fails).
+                    You can also use this weapon to make trip attacks. If you are tripped during your own trip attempt,
+                    you can drop the flail to avoid being tripped.
+                ">
+                    Flail, Heavy (Silver)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Longbow +1 (4 Str)"
+                    data-content="You need at least two hands to use a bow, regardless of its size. You can use a composite longbow
+                    while mounted. All composite bows are made with a particular strength rating (that is, each requires
+                    a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the
+                    strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on
+                    attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use
+                    with proficiency. A composite longbow can be made with a high strength rating to take advantage of
+                    an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to
+                    the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp
+                    to its cost.
+                    For purposes of weapon proficiency and similar feats, a composite longbow is treated as if it were a
+                    longbow.
+                ">
+                    Longbow +1 (4 Str)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Dagger"
+                    data-content="You get a +2 bonus on Sleight of Hand checks made to conceal a dagger on your body (see the
+                    Sleight of Hand skill).
+                ">
+                    Dagger
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Alchemist’s Fire (flask)"
+                    data-content="You can throw a flask of alchemist’s fire as a splash weapon. Treat this attack as a ranged touch
+                    attack with a range increment of 10 feet.
+                    A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the
+                    flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the
+                    target takes an additional 1d6 points of damage. If desired, the target can use a full-round action
+                    to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames
+                    requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save.
+                    Leaping into a lake or magically extinguishing the flames automatically smothers the fire.
+                ">
+                    Alchemist’s Fire (flask)
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Backpack / Quiver</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Arrows"
+                    data-content="An arrow used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack
+                    rolls) and deals damage as a dagger of its size (critical multiplier x2). Arrows come in a leather
+                    quiver that holds 20 arrows. An arrow that hits its target is destroyed; one that misses has a 50%
+                    chance of being destroyed or lost.
+                ">
+                    Arrows
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Sunrod"
+                    data-content="This 1-foot-long, gold-tipped, iron rod glows brightly when struck. It clearly illuminates a
+                    30-foot radius and provides shadowy illumination in a 60-foot radius. It glows for 6 hours, after
+                    which the gold tip is burned out and worthless.
+                ">
+                    Sunrod
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Thieves’ Tools, Masterwork"
+                    data-content="This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on
+                    Disable Device and Open Lock checks.
+                ">
+                    Thieves’ Tools, Masterwork
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Rope, Silk (50 ft.)"
+                    data-content="This rope has 4 hit points and can be burst with a DC 24 Strength check. It is so supple that it
+                    provides a +2 circumstance bonus on Use Rope checks.
+                ">
+                    Rope, Silk (50 ft.)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Waterskin"
+                    data-content="">
+                    Waterskin
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Rations, Trail (per day)"
+                    data-content="">
+                    Rations, Trail (per day)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Crowbar"
+                    data-content="A crowbar it grants a +2 circumstance bonus on Strength checks made for such purposes. If used in
+                    combat, treat a crowbar as a one-handed improvised weapon that deals bludgeoning damage equal to
+                    that of a club of its size.
+                ">
+                    Crowbar
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Potion Cure Light"
+                    data-content="">
+                    Potion Cure Light
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Holy Symbol, Pelor"
+                    data-content="A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and
+                    as a tool for turning undead. Each religion has its own holy symbol.
+                    Unholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is
+                    used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).
+                ">
+                    Holy Symbol, Pelor
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Chalk"
+                    data-content="">
+                    Chalk
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Bedroll"
+                    data-content="">
+                    Bedroll
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Brooch"
+                    data-content="">
+                    Brooch
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Gold Pieces"
+                    data-content="">
+                    Gold Pieces
+                  </a>
+                </li>
+                            </ul>
+                      </div>
+          <div class="col-sm">
+            <h2>Skills</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Total</th>
+                  <th>Skill</th>
+                  <th>Rank</th>
+                  <th>Ability</th>
+                  <th>Modifiers</th>
+                  <th>Context</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Appraise"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Appraise
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    9
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Balance"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Balance
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                    + 2                                      </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Bluff"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Bluff
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    3
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Climb"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Climb
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    7
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Concentration"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                          <tr>
+                            <td>CON</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                                            </table>">
+                      Concentration
+                    </a>
+                  </td>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    CON
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    10
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Craft"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Craft
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Diplomacy"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Diplomacy
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    11
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Disable Device"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                                            </table>">
+                      Disable Device
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Disguise"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Disguise
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Escape Artist"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Escape Artist
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Forgery"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Forgery
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Gather Information"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Gather Information
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Heal"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Heal
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Hide"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Hide
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Intimidate"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Intimidate
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    10
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Jump"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Jump
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    4
+                    + 2                                      </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                                                                                                                                                                                                                                                                                                          <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Listen"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Listen
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Move Silently"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Move Silently
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    8
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Open Lock"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                                            </table>">
+                      Open Lock
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    5
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Perform"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Perform
+                    </a>
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    5
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Ride"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Ride
+                    </a>
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    10
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Search"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Search
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Sense Motive"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Sense Motive
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                                                          <tr>
+                  <td style="width:2em;text-align:left;">
+                    6
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Spellcraft"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                                            </table>">
+                      Spellcraft
+                    </a>
+                  </td>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    9
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Spot"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Spot
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Survival"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Survival
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    6
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Swim"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-2</td>
+                          </tr>
+                                                                            </table>">
+                      Swim
+                    </a>
+                  </td>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    9
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Tumble"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Tumble
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                    + 2                                      </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    3
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Use Rope"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>3</td>
+                          </tr>
+                                                                            </table>">
+                      Use Rope
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    3
+                                                          </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                                            </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+            <h2>Features</h2>
+            <h3>Human</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Bonus Feat"
+                  data-content="1 extra feat at 1st level.">
+                  Bonus Feat
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Skilled"
+                  data-content="4 extra skill points at 1st level and 1 extra skill point at each additional level.">
+                  Skilled
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Languages"
+                  data-content="Common. Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak
+                    Language skill.
+                ">
+                  Languages
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Favored Class"
+                  data-content="Any. When determining whether a multiclass human takes an experience point penalty, his or her
+                    highest-level class does not count.
+                ">
+                  Favored Class
+                </a>
+              </li>
+                        </ul>
+
+                          <h3>Barbarian (2)</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Weapon and Armor Proficiency"
+                    data-content="A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and
+                    shields (except tower shields).
+                ">
+                    Weapon and Armor Proficiency
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Fast Movement (Ex)"
+                    data-content="A barbarian’s land speed is faster than the norm for his race by +10 feet. This benefit applies
+                    only when he is wearing no armor, light armor, or medium armor and not carrying a heavy load. Apply
+                    this bonus before modifying the barbarian’s speed because of any load carried or armor worn.
+                ">
+                    Fast Movement (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Rage (Ex)"
+                    data-content="A barbarian can fly into a rage a certain number of times per day. In a rage, a barbarian
+                    temporarily gains a +4 bonus to Strength, a +4 bonus to Constitution, and a +2 morale bonus on Will
+                    saves, but he takes a -2 penalty to Armor Class. The increase in Constitution increases the
+                    barbarian’s hit points by 2 points per level, but these hit points go away at the end of the rage
+                    when his Constitution score drops back to normal. (These extra hit points are not lost first the way
+                    temporary hit points are.) While raging, a barbarian cannot use any Charisma-, Dexterity-, or
+                    Intelligence-based skills (except for Balance, Escape Artist, Intimidate, and Ride), the
+                    Concentration skill, or any abilities that require patience or concentration, nor can he cast spells
+                    or activate magic items that require a command word, a spell trigger (such as a wand), or spell
+                    completion (such as a scroll) to function. He can use any feat he has except Combat Expertise, item
+                    creation feats, and metamagic feats. A fit of rage lasts for a number of rounds equal to 3 + the
+                    character’s (newly improved) Constitution modifier. A barbarian may prematurely end his rage. At the
+                    end of the rage, the barbarian loses the rage modifiers and restrictions and becomes fatigued (-2
+                    penalty to Strength, -2 penalty to Dexterity, can’t charge or run) for the duration of the current
+                    encounter (unless he is a 17th-level barbarian, at which point this limitation no longer applies).
+                    A barbarian can fly into a rage only once per encounter. At 1st level he can use his rage ability
+                    once per day. At 4th level and every four levels thereafter, he can use it one additional time per
+                    day (to a maximum of six times per day at 20th level). Entering a rage takes no time itself, but a
+                    barbarian can do it only during his action, not in response to someone else’s action.
+                ">
+                    Rage (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Uncanny Dodge (Ex)"
+                    data-content="At 2nd level, a barbarian retains his Dexterity bonus to AC (if any) even if he is caught
+                    flat-footed or struck by an invisible attacker. However, he still loses his Dexterity bonus to AC if
+                    immobilized. If a barbarian already has uncanny dodge from a different class, he automatically gains
+                    improved uncanny dodge instead.
+                ">
+                    Uncanny Dodge (Ex)
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Rogue (3)</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Weapon and Armor Proficiency"
+                    data-content="Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and
+                    short sword. Rogues are proficient with light armor, but not with shields.
+                ">
+                    Weapon and Armor Proficiency
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Sneak Attack"
+                    data-content="If a rogue can catch an opponent when he is unable to defend himself effectively from her attack,
+                    she can strike a vital spot for extra damage.
+                    The rogue’s attack deals extra damage any time her target would be denied a Dexterity bonus to AC
+                    (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target.
+                    This extra damage is 1d6 at 1st level, and it increases by 1d6 every two rogue levels thereafter.
+                    Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied.
+                    Ranged attacks can count as sneak attacks only if the target is within 30 feet.
+                    With a sap (blackjack) or an unarmed strike, a rogue can make a sneak attack that deals nonlethal
+                    damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal
+                    damage in a sneak attack, not even with the usual -4 penalty.
+                    A rogue can sneak attack only living creatures with discernible anatomies—undead, constructs, oozes,
+                    plants, and incorporeal creatures lack vital areas to attack. Any creature that is immune to
+                    critical hits is not vulnerable to sneak attacks. The rogue must be able to see the target well
+                    enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak attack
+                    while striking a creature with concealment or striking the limbs of a creature whose vitals are
+                    beyond reach.
+                ">
+                    Sneak Attack
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Trapfinding"
+                    data-content="Rogues (and only rogues) can use the Search skill to locate traps when the task has a Difficulty
+                    Class higher than 20.
+                    Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic
+                    trap has a DC of 25 + the level of the spell used to create it.
+                    Rogues (and only rogues) can use the Disable Device skill to disarm magic traps. A magic trap
+                    generally has a DC of 25 + the level of the spell used to create it.
+                    A rogue who beats a trap’s DC by 10 or more with a Disable Device check can study a trap, figure out
+                    how it works, and bypass it (with her party) without disarming it.
+                ">
+                    Trapfinding
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Feat"
+                    data-content="A rogue may gain a bonus feat in place of a special ability.">
+                    Feat
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Evasion (Ex)"
+                    data-content="At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great agility. If
+                    she makes a successful Reflex saving throw against an attack that normally deals half damage on a
+                    successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light
+                    armor or no armor. A helpless rogue does not gain the benefit of evasion.
+                ">
+                    Evasion (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Trap Sense (Ex)"
+                    data-content="At 3rd level, a rogue gains an intuitive sense that alerts her to danger from traps, giving her a
+                    +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by
+                    traps. These bonuses rise to +2 when the rogue reaches 6th level, to +3 when she reaches 9th level,
+                    to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.
+                    Trap sense bonuses gained from multiple classes stack.
+                ">
+                    Trap Sense (Ex)
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Trapsmith (1)</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Trapsense +1"
+                    data-content="">
+                    Trapsense +1
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Master Disarmed"
+                    data-content="Add level for search, disable, and open locks for traps.">
+                    Master Disarmed
+                  </a>
+                </li>
+                            </ul>
+            
+            <h3>Feats</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Dodge"
+                  data-content="During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against
+                attacks from that opponent. You can select a new opponent on any action.
+                A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge
+                bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.
+            ">
+                  Dodge
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Combat Expertise"
+                  data-content="When you use the attack action or the full attack action in melee, you can take a penalty of as much
+                as –5 on your attack roll and add the same number (+5 or less) as a dodge bonus to your Armor Class.
+                This number may not exceed your base attack bonus. The changes to attack rolls and Armor Class last
+                until your next action.
+                Normal: A character without the Combat Expertise feat can fight defensively while using the attack or
+                full attack action to take a –4 penalty on attack rolls and gain a +2 dodge bonus to Armor Class.
+            ">
+                  Combat Expertise
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Mobility"
+                  data-content="You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or
+                within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any)
+                also makes you lose dodge bonuses.
+                Dodge bonuses stack with each other, unlike most types of bonuses.
+            ">
+                  Mobility
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Practiced Caster"
+                  data-content="Caster level +4">
+                  Practiced Caster
+                </a>
+              </li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

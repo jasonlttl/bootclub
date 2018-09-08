@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ character.name }}</title>
+    <meta name="author" content="Me">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+        $('.popover-dismiss').popover({
+          trigger: 'focus'
+        })
+      })
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+
+        <h1> {{ character.name }} </h1>
+
+        <div class="row">
+          <div class="col-sm">
+            <table>
+              <thead>
+                <tr>
+                  <td>Ability</td>
+                  <td>Score</td>
+                  <td>Bonus</td>
+                </tr>
+              </thead>
+              <tbody>
+              {% for ability, vals in abilities %}
+              <tr>
+                <td>{{ ability }}</td>
+                <td>{{ vals.raw }}</td>
+                <td>{{ vals.bonus }}</td>
+              </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <h2>Equipment</h2>
+            <h3>Equipped</h3>
+            <ul>
+            {% for item in character.item %}
+              <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="{{ item.name }}"
+                  data-content="{{ item.text }}">
+                  {{ item.name }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+            {% for container in character.container %}
+              <h3>{{ container.name }}</h3>
+              <ul>
+              {% for item in container.item %}
+                <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="{{ item.name }}"
+                    data-content="{{ item.text }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
+          <div class="col-sm">
+            <h2>Skills</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Total</th>
+                  <th>Skill</th>
+                  <th>Rank</th>
+                  <th>Ability</th>
+                  <th>Modifiers</th>
+                  <th>Context</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              {% for skill in skills %}
+                {% if not skill.trained or skill.rank %}
+                <tr>
+                  <td style="width:2em;text-align:left;">
+                    {{ skill.total }}
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="{{ skill.name }}"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>{{ skill.rank }}</td>
+                          </tr>
+                          <tr>
+                            <td>{{ skill.ability }}</td>
+                            <td style='text-align:right;'>{{ skill.abilityBonus }}</td>
+                          </tr>
+                          {% if skill.armorPenalty != 0 %}
+                          <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>{{ skill.armorPenalty }}</td>
+                          </tr>
+                          {% endif %}
+                          {% if skill.modifier > 0 %}
+                          <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>{{ skill.modifier }}</td>
+                          </tr>
+                          {% endif %}
+                        </table>">
+                      {{ skill.name }}
+                    </a>
+                  </td>
+                  <td>
+                    {{ skill.rank }}
+                  </td>
+                  <td>
+                    {{ skill.ability }}
+                  </td>
+                  <td>
+                    {{ skill.abilityBonus }}
+                    {% if skill.modifier > 0 %}+ {{ skill.modifier }}{% endif %}
+                    {% if skill.modifier < 0 %}- {{ -1*skill.modifier }}{% endif %}
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    Ctxt
+                  </td>
+                </tr>
+                {% endif %}
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+            <h2>Features</h2>
+            <h3>{{ character.race.name }}</h3>
+            <ul>
+            {% for item in character.race.feat  %}
+              <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="{{ item.name }}"
+                  data-content="{{ item.text }}">
+                  {{ item.name }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+
+            {% for class in character.class %}
+              <h3>{{ class.name }} ({{ class.level | default(1)}})</h3>
+              <ul>
+              {% for item in class.feat %}
+                <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="{{ item.name }}"
+                    data-content="{{ item.text }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endfor %}
+
+            <h3>Feats</h3>
+            <ul>
+            {% for item in character.feat %}
+              <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="{{ item.name }}"
+                  data-content="{{ item.text }}">
+                  {{ item.name }}
+                </a>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

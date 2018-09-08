@@ -1,0 +1,9 @@
+# Ignore composer
+vendor
+
+# Ignore editor files
+.idea
+.DS_Store
+
+# Ignore twig cache.
+cache/*

@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="3">
+    <character>
+        <uniqueID>1144</uniqueID>
+        <name>Lucy</name>
+        <imageData>
+            <uniqueID>1146</uniqueID>
+        </imageData>
+        <race>
+            <name>Human</name>
+            <feat>
+                <name>Bonus Feat</name>
+                <text>1 extra feat at 1st level.</text>
+            </feat>
+            <feat>
+                <name>Skilled</name>
+                <text>4 extra skill points at 1st level and 1 extra skill point at each additional level.</text>
+                <modifier>
+                    <type>28</type>
+                    <value>1</value>
+                </modifier>
+            </feat>
+            <feat>
+                <name>Languages</name>
+                <text>Common. Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak
+                    Language skill.
+                </text>
+            </feat>
+            <feat>
+                <name>Favored Class</name>
+                <text>Any. When determining whether a multiclass human takes an experience point penalty, his or her
+                    highest-level class does not count.
+                </text>
+            </feat>
+        </race>
+        <class>
+            <id>1122</id>
+            <name>Barbarian</name>
+            <level>2</level>
+            <hd>4</hd>
+            <skills>Climb, Craft, Handle Animal, Intimidate, Jump, Listen, Ride, Survival, Swim</skills>
+            <skillPoints>4</skillPoints>
+            <wealth>4d4x10</wealth>
+            <baseAttack>2</baseAttack>
+            <fortitude>3</fortitude>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Weapon and Armor Proficiency</name>
+                <text>A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and
+                    shields (except tower shields).
+                </text>
+            </feat>
+            <feat>
+                <name>Fast Movement (Ex)</name>
+                <text>A barbarian’s land speed is faster than the norm for his race by +10 feet. This benefit applies
+                    only when he is wearing no armor, light armor, or medium armor and not carrying a heavy load. Apply
+                    this bonus before modifying the barbarian’s speed because of any load carried or armor worn.
+                </text>
+                <modifier>
+                    <type>19</type>
+                    <value>10</value>
+                </modifier>
+            </feat>
+            <feat>
+                <name>Rage (Ex)</name>
+                <text>A barbarian can fly into a rage a certain number of times per day. In a rage, a barbarian
+                    temporarily gains a +4 bonus to Strength, a +4 bonus to Constitution, and a +2 morale bonus on Will
+                    saves, but he takes a -2 penalty to Armor Class. The increase in Constitution increases the
+                    barbarian’s hit points by 2 points per level, but these hit points go away at the end of the rage
+                    when his Constitution score drops back to normal. (These extra hit points are not lost first the way
+                    temporary hit points are.) While raging, a barbarian cannot use any Charisma-, Dexterity-, or
+                    Intelligence-based skills (except for Balance, Escape Artist, Intimidate, and Ride), the
+                    Concentration skill, or any abilities that require patience or concentration, nor can he cast spells
+                    or activate magic items that require a command word, a spell trigger (such as a wand), or spell
+                    completion (such as a scroll) to function. He can use any feat he has except Combat Expertise, item
+                    creation feats, and metamagic feats. A fit of rage lasts for a number of rounds equal to 3 + the
+                    character’s (newly improved) Constitution modifier. A barbarian may prematurely end his rage. At the
+                    end of the rage, the barbarian loses the rage modifiers and restrictions and becomes fatigued (-2
+                    penalty to Strength, -2 penalty to Dexterity, can’t charge or run) for the duration of the current
+                    encounter (unless he is a 17th-level barbarian, at which point this limitation no longer applies).
+                    A barbarian can fly into a rage only once per encounter. At 1st level he can use his rage ability
+                    once per day. At 4th level and every four levels thereafter, he can use it one additional time per
+                    day (to a maximum of six times per day at 20th level). Entering a rage takes no time itself, but a
+                    barbarian can do it only during his action, not in response to someone else’s action.
+                </text>
+            </feat>
+            <feat>
+                <name>Uncanny Dodge (Ex)</name>
+                <text>At 2nd level, a barbarian retains his Dexterity bonus to AC (if any) even if he is caught
+                    flat-footed or struck by an invisible attacker. However, he still loses his Dexterity bonus to AC if
+                    immobilized. If a barbarian already has uncanny dodge from a different class, he automatically gains
+                    improved uncanny dodge instead.
+                </text>
+            </feat>
+            <autolevel>
+                <baseAttack>1</baseAttack>
+                <fortitude>2</fortitude>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Weapon and Armor Proficiency</name>
+                    <text>A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and
+                        shields (except tower shields).
+                    </text>
+                </feat>
+                <feat>
+                    <name>Fast Movement (Ex)</name>
+                    <text>A barbarian’s land speed is faster than the norm for his race by +10 feet. This benefit
+                        applies only when he is wearing no armor, light armor, or medium armor and not carrying a heavy
+                        load. Apply this bonus before modifying the barbarian’s speed because of any load carried or
+                        armor worn.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Illiteracy</name>
+                    <text>Barbarians are the only characters who do not automatically know how to read and write. A
+                        barbarian may spend 2 skill points to gain the ability to read and write all languages he is
+                        able to speak.
+                        A barbarian who gains a level in any other class automatically gains literacy. Any other
+                        character who gains a barbarian level does not lose the literacy he or she already had.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Rage (Ex)</name>
+                    <text>A barbarian can fly into a rage a certain number of times per day. In a rage, a barbarian
+                        temporarily gains a +4 bonus to Strength, a +4 bonus to Constitution, and a +2 morale bonus on
+                        Will saves, but he takes a -2 penalty to Armor Class. The increase in Constitution increases the
+                        barbarian’s hit points by 2 points per level, but these hit points go away at the end of the
+                        rage when his Constitution score drops back to normal. (These extra hit points are not lost
+                        first the way temporary hit points are.) While raging, a barbarian cannot use any Charisma-,
+                        Dexterity-, or Intelligence-based skills (except for Balance, Escape Artist, Intimidate, and
+                        Ride), the Concentration skill, or any abilities that require patience or concentration, nor can
+                        he cast spells or activate magic items that require a command word, a spell trigger (such as a
+                        wand), or spell completion (such as a scroll) to function. He can use any feat he has except
+                        Combat Expertise, item creation feats, and metamagic feats. A fit of rage lasts for a number of
+                        rounds equal to 3 + the character’s (newly improved) Constitution modifier. A barbarian may
+                        prematurely end his rage. At the end of the rage, the barbarian loses the rage modifiers and
+                        restrictions and becomes fatigued (-2 penalty to Strength, -2 penalty to Dexterity, can’t charge
+                        or run) for the duration of the current encounter (unless he is a 17th-level barbarian, at which
+                        point this limitation no longer applies).
+                        A barbarian can fly into a rage only once per encounter. At 1st level he can use his rage
+                        ability once per day. At 4th level and every four levels thereafter, he can use it one
+                        additional time per day (to a maximum of six times per day at 20th level). Entering a rage takes
+                        no time itself, but a barbarian can do it only during his action, not in response to someone
+                        else’s action.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <baseAttack>2</baseAttack>
+                <fortitude>3</fortitude>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Uncanny Dodge (Ex)</name>
+                    <text>At 2nd level, a barbarian retains his Dexterity bonus to AC (if any) even if he is caught
+                        flat-footed or struck by an invisible attacker. However, he still loses his Dexterity bonus to
+                        AC if immobilized. If a barbarian already has uncanny dodge from a different class, he
+                        automatically gains improved uncanny dodge instead.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>1</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Trap Sense (Ex)</name>
+                    <text>Starting at 3rd level, a barbarian gains a +1 bonus on Reflex saves made to avoid traps and a
+                        +1 dodge bonus to AC against attacks made by traps. These bonuses rise by +1 every three
+                        barbarian levels thereafter (6th, 9th, 12th, 15th, and 18th level). Trap sense bonuses gained
+                        from multiple classes stack.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <baseAttack>4</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>1</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <baseAttack>5</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>1</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Improved Uncanny Dodge (Ex)</name>
+                    <text>At 5th level and higher, a barbarian can no longer be flanked. This defense denies a rogue the
+                        ability to sneak attack the barbarian by flanking him, unless the attacker has at least four
+                        more rogue levels than the target has barbarian levels. If a character already has uncanny dodge
+                        from a second class, the character automatically gains improved uncanny dodge instead, and the
+                        levels from the classes that grant uncanny dodge stack to determine the minimum level a rogue
+                        must be to flank the character.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>2</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <baseAttack>7</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>2</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Damage Reduction (Ex)</name>
+                    <text>At 7th level, a barbarian gains Damage Reduction. Subtract 1 from the damage the barbarian
+                        takes each time he is dealt damage from a weapon or a natural attack. At 10th level, and every
+                        three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1
+                        point. Damage reduction can reduce damage to 0 but not below 0.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <baseAttack>8</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>2</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>3</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <baseAttack>10</baseAttack>
+                <fortitude>7</fortitude>
+                <reflex>3</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <baseAttack>11</baseAttack>
+                <fortitude>7</fortitude>
+                <reflex>3</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Greater Rage (Ex)</name>
+                    <text>At 11th level, a barbarian’s bonuses to Strength and Constitution during his rage each
+                        increase to +6, and his morale bonus on Will saves increases to +3. The penalty to AC remains at
+                        -2.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <baseAttack>12</baseAttack>
+                <fortitude>8</fortitude>
+                <reflex>4</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <baseAttack>13</baseAttack>
+                <fortitude>8</fortitude>
+                <reflex>4</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <baseAttack>14</baseAttack>
+                <fortitude>9</fortitude>
+                <reflex>4</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Indomitable Will (Ex)</name>
+                    <text>While in a rage, a barbarian of 14th level or higher gains a +4 bonus on Will saves to resist
+                        enchantment spells. This bonus stacks with all other modifiers, including the morale bonus on
+                        Will saves he also receives during his rage.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <baseAttack>15</baseAttack>
+                <fortitude>9</fortitude>
+                <reflex>5</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <baseAttack>16</baseAttack>
+                <fortitude>10</fortitude>
+                <reflex>5</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <baseAttack>17</baseAttack>
+                <fortitude>10</fortitude>
+                <reflex>5</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Tireless Rage (Ex)</name>
+                    <text>At 17th level and higher, a barbarian no longer becomes fatigued at the end of his rage.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <baseAttack>18</baseAttack>
+                <fortitude>11</fortitude>
+                <reflex>6</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <baseAttack>19</baseAttack>
+                <fortitude>11</fortitude>
+                <reflex>6</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <baseAttack>20</baseAttack>
+                <fortitude>12</fortitude>
+                <reflex>6</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Mighty Rage (Ex)</name>
+                    <text>At 20th level, a barbarian’s bonuses to Strength and Constitution during his rage each
+                        increase to +8, and his morale bonus on Will saves increases to +4. The penalty to AC remains at
+                        -2.
+                    </text>
+                </feat>
+            </autolevel>
+            <skills>Climb, Craft, Handle Animal, Intimidate, Jump, Listen, Ride, Survival, Swim</skills>
+        </class>
+        <class>
+            <id>1112</id>
+            <name>Rogue</name>
+            <level>3</level>
+            <hd>1</hd>
+            <skills>Appraise, Balance, Bluff, Climb, Craft, Decipher Script, Diplomacy, Disable Device, Disguise, Escape
+                Artist, Forgery, Gather Information, Hide, Intimidate, Jump, Knowledge (local), Listen, Move Silently,
+                Open Lock, Perform, Profession, Search, Sense Motive, Sleight of Hand, Spot, Swim, Tumble, Use Magic
+                Device, Use Rope
+            </skills>
+            <skillPoints>8</skillPoints>
+            <wealth>5d4x10</wealth>
+            <baseAttack>2</baseAttack>
+            <fortitude>1</fortitude>
+            <reflex>3</reflex>
+            <will>1</will>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Weapon and Armor Proficiency</name>
+                <text>Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow, and
+                    short sword. Rogues are proficient with light armor, but not with shields.
+                </text>
+            </feat>
+            <feat>
+                <name>Sneak Attack</name>
+                <text>If a rogue can catch an opponent when he is unable to defend himself effectively from her attack,
+                    she can strike a vital spot for extra damage.
+                    The rogue’s attack deals extra damage any time her target would be denied a Dexterity bonus to AC
+                    (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target.
+                    This extra damage is 1d6 at 1st level, and it increases by 1d6 every two rogue levels thereafter.
+                    Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied.
+                    Ranged attacks can count as sneak attacks only if the target is within 30 feet.
+                    With a sap (blackjack) or an unarmed strike, a rogue can make a sneak attack that deals nonlethal
+                    damage instead of lethal damage. She cannot use a weapon that deals lethal damage to deal nonlethal
+                    damage in a sneak attack, not even with the usual -4 penalty.
+                    A rogue can sneak attack only living creatures with discernible anatomies—undead, constructs, oozes,
+                    plants, and incorporeal creatures lack vital areas to attack. Any creature that is immune to
+                    critical hits is not vulnerable to sneak attacks. The rogue must be able to see the target well
+                    enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak attack
+                    while striking a creature with concealment or striking the limbs of a creature whose vitals are
+                    beyond reach.
+                </text>
+            </feat>
+            <feat>
+                <name>Trapfinding</name>
+                <text>Rogues (and only rogues) can use the Search skill to locate traps when the task has a Difficulty
+                    Class higher than 20.
+                    Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a magic
+                    trap has a DC of 25 + the level of the spell used to create it.
+                    Rogues (and only rogues) can use the Disable Device skill to disarm magic traps. A magic trap
+                    generally has a DC of 25 + the level of the spell used to create it.
+                    A rogue who beats a trap’s DC by 10 or more with a Disable Device check can study a trap, figure out
+                    how it works, and bypass it (with her party) without disarming it.
+                </text>
+            </feat>
+            <feat>
+                <name>Feat</name>
+                <text>A rogue may gain a bonus feat in place of a special ability.</text>
+            </feat>
+            <feat>
+                <name>Evasion (Ex)</name>
+                <text>At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great agility. If
+                    she makes a successful Reflex saving throw against an attack that normally deals half damage on a
+                    successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light
+                    armor or no armor. A helpless rogue does not gain the benefit of evasion.
+                </text>
+            </feat>
+            <feat>
+                <name>Trap Sense (Ex)</name>
+                <text>At 3rd level, a rogue gains an intuitive sense that alerts her to danger from traps, giving her a
+                    +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by
+                    traps. These bonuses rise to +2 when the rogue reaches 6th level, to +3 when she reaches 9th level,
+                    to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.
+                    Trap sense bonuses gained from multiple classes stack.
+                </text>
+            </feat>
+            <autolevel>
+                <reflex>2</reflex>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Weapon and Armor Proficiency</name>
+                    <text>Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, shortbow,
+                        and short sword. Rogues are proficient with light armor, but not with shields.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Sneak Attack</name>
+                    <text>If a rogue can catch an opponent when he is unable to defend himself effectively from her
+                        attack, she can strike a vital spot for extra damage.
+                        The rogue’s attack deals extra damage any time her target would be denied a Dexterity bonus to
+                        AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her
+                        target. This extra damage is 1d6 at 1st level, and it increases by 1d6 every two rogue levels
+                        thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not
+                        multiplied.
+                        Ranged attacks can count as sneak attacks only if the target is within 30 feet.
+                        With a sap (blackjack) or an unarmed strike, a rogue can make a sneak attack that deals
+                        nonlethal damage instead of lethal damage. She cannot use a weapon that deals lethal damage to
+                        deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.
+                        A rogue can sneak attack only living creatures with discernible anatomies—undead, constructs,
+                        oozes, plants, and incorporeal creatures lack vital areas to attack. Any creature that is immune
+                        to critical hits is not vulnerable to sneak attacks. The rogue must be able to see the target
+                        well enough to pick out a vital spot and must be able to reach such a spot. A rogue cannot sneak
+                        attack while striking a creature with concealment or striking the limbs of a creature whose
+                        vitals are beyond reach.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Trapfinding</name>
+                    <text>Rogues (and only rogues) can use the Search skill to locate traps when the task has a
+                        Difficulty Class higher than 20.
+                        Finding a nonmagical trap has a DC of at least 20, or higher if it is well hidden. Finding a
+                        magic trap has a DC of 25 + the level of the spell used to create it.
+                        Rogues (and only rogues) can use the Disable Device skill to disarm magic traps. A magic trap
+                        generally has a DC of 25 + the level of the spell used to create it.
+                        A rogue who beats a trap’s DC by 10 or more with a Disable Device check can study a trap, figure
+                        out how it works, and bypass it (with her party) without disarming it.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Feat</name>
+                    <text>A rogue may gain a bonus feat in place of a special ability.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <baseAttack>1</baseAttack>
+                <reflex>3</reflex>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Evasion (Ex)</name>
+                    <text>At 2nd level and higher, a rogue can avoid even magical and unusual attacks with great
+                        agility. If she makes a successful Reflex saving throw against an attack that normally deals
+                        half damage on a successful save, she instead takes no damage. Evasion can be used only if the
+                        rogue is wearing light armor or no armor. A helpless rogue does not gain the benefit of evasion.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <baseAttack>2</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>3</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Trap Sense (Ex)</name>
+                    <text>At 3rd level, a rogue gains an intuitive sense that alerts her to danger from traps, giving
+                        her a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks
+                        made by traps. These bonuses rise to +2 when the rogue reaches 6th level, to +3 when she reaches
+                        9th level, to +4 when she reaches 12th level, to +5 at 15th, and to +6 at 18th level.
+                        Trap sense bonuses gained from multiple classes stack.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>4</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Uncanny Dodge (Ex)</name>
+                    <text>Starting at 4th level, a rogue can react to danger before her senses would normally allow her
+                        to do so. She retains her Dexterity bonus to AC (if any) even if she is caught flat-footed or
+                        struck by an invisible attacker. However, she still loses her Dexterity bonus to AC if
+                        immobilized.
+                        If a rogue already has uncanny dodge from a different class she automatically gains improved
+                        uncanny dodge instead.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>4</reflex>
+                <will>1</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <baseAttack>4</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>5</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <baseAttack>5</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>5</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>6</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Improved Uncanny Dodge (Ex)</name>
+                    <text>A rogue of 8th level or higher can no longer be flanked.
+                        This defense denies another rogue the ability to sneak attack the character by flanking her,
+                        unless the attacker has at least four more rogue levels than the target does.
+                        If a character already has uncanny dodge from a second class, the character automatically gains
+                        improved uncanny dodge instead, and the levels from the classes that grant uncanny dodge stack
+                        to determine the minimum rogue level required to flank the character.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>6</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <baseAttack>7</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>7</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Special Abilities</name>
+                    <text>On attaining 10th level, and at every three levels thereafter (13th, 16th, and 19th), a rogue
+                        gains a special ability of her choice from among the following options.
+                        Crippling Strike (Ex)
+                        A rogue with this ability can sneak attack opponents with such precision that her blows weaken
+                        and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of Strength
+                        damage. Ability points lost to damage return on their own at the rate of 1 point per day for
+                        each damaged ability.
+                        Defensive Roll (Ex)
+                        The rogue can roll with a potentially lethal blow to take less damage from it than she otherwise
+                        would. Once per day, when she would be reduced to 0 or fewer hit points by damage in combat
+                        (from a weapon or other blow, not a spell or special ability), the rogue can attempt to roll
+                        with the damage. To use this ability, the rogue must attempt a Reflex saving throw (DC = damage
+                        dealt). If the save succeeds, she takes only half damage from the blow; if it fails, she takes
+                        full damage. She must be aware of the attack and able to react to it in order to execute her
+                        defensive roll—if she is denied her Dexterity bonus to AC, she can’t use this ability. Since
+                        this effect would not normally allow a character to make a Reflex save for half damage, the
+                        rogue’s evasion ability does not apply to the defensive roll.
+                        Improved Evasion (Ex)
+                        This ability works like evasion, except that while the rogue still takes no damage on a
+                        successful Reflex saving throw against attacks henceforth she takes only half damage on a failed
+                        save. A helpless rogue does not gain the benefit of improved evasion.
+                        Opportunist (Ex)
+                        Once per round, the rogue can make an attack of opportunity against an opponent who has just
+                        been struck for damage in melee by another character. This attack counts as the rogue’s attack
+                        of opportunity for that round. Even a rogue with the Combat Reflexes feat can’t use the
+                        opportunist ability more than once per round.
+                        Skill Mastery
+                        The rogue becomes so certain in the use of certain skills that she can use them reliably even
+                        under adverse conditions.
+                        Upon gaining this ability, she selects a number of skills equal to 3 + her Intelligence
+                        modifier. When making a skill check with one of these skills, she may take 10 even if stress and
+                        distractions would normally prevent her from doing so. A rogue may gain this special ability
+                        multiple times, selecting additional skills for it to apply to each time.
+                        Slippery Mind (Ex)
+                        This ability represents the rogue’s ability to wriggle free from magical effects that would
+                        otherwise control or compel her. If a rogue with slippery mind is affected by an enchantment
+                        spell or effect and fails her saving throw, she can attempt it again 1 round later at the same
+                        DC. She gets only this one extra chance to succeed on her saving throw.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <baseAttack>8</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>7</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>8</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>8</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <baseAttack>10</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>9</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <baseAttack>11</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>9</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <baseAttack>12</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>10</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <baseAttack>12</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>10</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <baseAttack>13</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>11</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <baseAttack>14</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>11</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <baseAttack>15</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>12</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <skills>Appraise, Balance, Bluff, Climb, Craft, Decipher Script, Diplomacy, Disable Device, Disguise, Escape
+                Artist, Forgery, Gather Information, Hide, Intimidate, Jump, Knowledge (local), Listen, Move Silently,
+                Open Lock, Perform, Profession, Search, Sense Motive, Sleight of Hand, Spot, Swim, Tumble, Use Magic
+                Device, Use Rope
+            </skills>
+        </class>
+        <class>
+            <name>Trapsmith</name>
+            <hd>1</hd>
+            <reflex>2</reflex>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Trapsense +1</name>
+            </feat>
+            <feat>
+                <name>Master Disarmed</name>
+                <text>Add level for search, disable, and open locks for traps.</text>
+            </feat>
+            <autolevel>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <spell>
+                <src>1</src>
+                <name>Haste</name>
+                <level>1</level>
+                <school>8</school>
+                <components>V, S, M</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>One creature/level, no two of which can be more than 30 ft. apart</target>
+                <duration>1 round/level</duration>
+                <save>Fortitude negates (harmless)</save>
+                <sr>Yes (harmless)</sr>
+                <text>The transmuted creatures move and act more quickly than normal. This extra speed has several
+                    effects.
+                    When making a full attack action, a hasted creature may make one extra attack with any weapon he is
+                    holding. The attack is made using the creature’s full base attack bonus, plus any modifiers
+                    appropriate to the situation. (This effect is not cumulative with similar effects, such as that
+                    provided by a weapon of speed, nor does it actually grant an extra action, so you can’t use it to
+                    cast a second spell or otherwise take an extra action in the round.)
+                    A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any
+                    condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge
+                    bonuses.
+                    All of the hasted creature’s modes of movement (including land movement, burrow, climb, fly, and
+                    swim) increase by 30 feet, to a maximum of twice the subject’s normal speed using that form of
+                    movement. This increase counts as an enhancement bonus, and it affects the creature’s jumping
+                    distance as normal for increased speed.
+                    Multiple haste effects don’t stack. Haste dispels and counters slow.
+                    Material Component: A shaving of licorice root.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                    <level>3</level>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                    <level>3</level>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                    <level>3</level>
+                </spellClass>
+                <prepared>2</prepared>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Protection from Energy</name>
+                <level>1</level>
+                <school>1</school>
+                <components>V, S, DF</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Creature touched</target>
+                <duration>10 min./level or until discharged</duration>
+                <save>Fortitude negates (harmless)</save>
+                <sr>Yes (harmless)</sr>
+                <text>Protection from energy grants temporary immunity to the type of energy you specify when you cast
+                    it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of
+                    energy damage (to a maximum of 120 points at 10th level), it is discharged.
+                    Note: Protection from energy overlaps (and does not stack with) resist energy. If a character is
+                    warded by protection from energy and resist energy, the protection spell absorbs damage until its
+                    power is exhausted.
+                </text>
+                <spellClass>
+                    <name>Cleric</name>
+                    <level>3</level>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                    <level>3</level>
+                </spellClass>
+                <spellClass>
+                    <name>Ranger</name>
+                    <level>2</level>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                    <level>3</level>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                    <level>3</level>
+                </spellClass>
+            </spell>
+        </class>
+        <skill>
+            <name>Appraise</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>1</skillID>
+            <name>Balance</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>2</skillID>
+            <name>Bluff</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>3</skillID>
+            <name>Climb</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>4</skillID>
+            <name>Concentration</name>
+            <ability>3</ability>
+            <rank>4</rank>
+        </skill>
+        <skill>
+            <skillID>5</skillID>
+            <name>Craft</name>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>6</skillID>
+            <name>Decipher Script</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>7</skillID>
+            <name>Diplomacy</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>8</skillID>
+            <name>Disable Device</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>9</skillID>
+            <name>Disguise</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>10</skillID>
+            <name>Escape Artist</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>11</skillID>
+            <name>Forgery</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>12</skillID>
+            <name>Gather Information</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>13</skillID>
+            <name>Handle Animal</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>14</skillID>
+            <name>Heal</name>
+            <ability>5</ability>
+        </skill>
+        <skill>
+            <skillID>15</skillID>
+            <name>Hide</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>16</skillID>
+            <name>Intimidate</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>17</skillID>
+            <name>Jump</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>18</skillID>
+            <name>Knowledge (arcana)</name>
+        </skill>
+        <skill>
+            <skillID>19</skillID>
+            <name>Knowledge (architecture)</name>
+        </skill>
+        <skill>
+            <skillID>20</skillID>
+            <name>Knowledge (dungeoneering)</name>
+        </skill>
+        <skill>
+            <skillID>21</skillID>
+            <name>Knowledge (geography)</name>
+        </skill>
+        <skill>
+            <skillID>22</skillID>
+            <name>Knowledge (history)</name>
+        </skill>
+        <skill>
+            <skillID>23</skillID>
+            <name>Knowledge (local)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>24</skillID>
+            <name>Knowledge (nature)</name>
+        </skill>
+        <skill>
+            <skillID>25</skillID>
+            <name>Knowledge (nobility)</name>
+        </skill>
+        <skill>
+            <skillID>27</skillID>
+            <name>Knowledge (planes)</name>
+        </skill>
+        <skill>
+            <skillID>26</skillID>
+            <name>Knowledge (religion)</name>
+        </skill>
+        <skill>
+            <skillID>28</skillID>
+            <name>Listen</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>29</skillID>
+            <name>Move Silently</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>30</skillID>
+            <name>Open Lock</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+        </skill>
+        <skill>
+            <skillID>31</skillID>
+            <name>Perform</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+            <rank>3</rank>
+        </skill>
+        <skill>
+            <skillID>32</skillID>
+            <name>Profession</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>33</skillID>
+            <name>Ride</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>3</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>34</skillID>
+            <name>Search</name>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>35</skillID>
+            <name>Sense Motive</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>36</skillID>
+            <name>Sleight of Hand</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>37</skillID>
+            <name>Speak Language</name>
+        </skill>
+        <skill>
+            <skillID>38</skillID>
+            <name>Spellcraft</name>
+            <classSkill>1</classSkill>
+            <rank>4</rank>
+        </skill>
+        <skill>
+            <skillID>39</skillID>
+            <name>Spot</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>40</skillID>
+            <name>Survival</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>41</skillID>
+            <name>Swim</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <rank>4</rank>
+            <armorPenalty>2</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>42</skillID>
+            <name>Tumble</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>43</skillID>
+            <name>Use Magic Device</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>44</skillID>
+            <name>Use Rope</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <xp>16040</xp>
+        <abilities>10,18,16,16,14,12,15,</abilities>
+        <hpMax>62</hpMax>
+        <hpCurrent>62</hpCurrent>
+        <feat>
+            <name>Dodge</name>
+            <text>During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against
+                attacks from that opponent. You can select a new opponent on any action.
+                A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge
+                bonuses. Also, dodge bonuses stack with each other, unlike most other types of bonuses.
+            </text>
+        </feat>
+        <feat>
+            <name>Combat Expertise</name>
+            <text>When you use the attack action or the full attack action in melee, you can take a penalty of as much
+                as –5 on your attack roll and add the same number (+5 or less) as a dodge bonus to your Armor Class.
+                This number may not exceed your base attack bonus. The changes to attack rolls and Armor Class last
+                until your next action.
+                Normal: A character without the Combat Expertise feat can fight defensively while using the attack or
+                full attack action to take a –4 penalty on attack rolls and gain a +2 dodge bonus to Armor Class.
+            </text>
+        </feat>
+        <feat>
+            <name>Mobility</name>
+            <text>You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or
+                within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any)
+                also makes you lose dodge bonuses.
+                Dodge bonuses stack with each other, unlike most types of bonuses.
+            </text>
+        </feat>
+        <feat>
+            <name>Practiced Caster</name>
+            <text>Caster level +4</text>
+        </feat>
+        <action>
+            <name>Great Sword +1</name>
+            <attack>%8+%1+1</attack>
+            <damage>2d6+7</damage>
+            <critDice>19</critDice>
+        </action>
+        <action>
+            <name>Silver Great Flail</name>
+            <attack>%8+%1</attack>
+            <damage>1d10+5</damage>
+            <critDice>19</critDice>
+        </action>
+        <action>
+            <name>Longbow</name>
+            <attack>%8+%2+1</attack>
+            <damage>1d8+5</damage>
+        </action>
+        <action>
+            <name>Cold Iron Guisarme</name>
+            <attack>%9</attack>
+            <damage>1d10+6</damage>
+        </action>
+        <item>
+            <name>Chain Shirt</name>
+            <slot>5</slot>
+            <type>0</type>
+            <armorClass>4</armorClass>
+            <maxDexterity>4</maxDexterity>
+            <armorPenalty>2</armorPenalty>
+            <damage>1d4</damage>
+            <weight>25.0</weight>
+            <value>100.0</value>
+            <text>A chain shirt comes with a steel cap.</text>
+        </item>
+        <item>
+            <name>Ring of Protection +1</name>
+            <slot>1</slot>
+            <type>10</type>
+            <damage>1d4</damage>
+            <modifier>
+                <type>14</type>
+                <value>1</value>
+            </modifier>
+        </item>
+        <container>
+            <name>Weapons</name>
+            <item>
+                <name>Greatsword +1</name>
+                <slot>3</slot>
+                <type>6</type>
+                <damage>2d6</damage>
+                <damageType>3</damageType>
+                <property>1</property>
+                <critDie>19</critDie>
+                <weight>8.0</weight>
+                <value>50.0</value>
+                <modifier>
+                    <value>1</value>
+                </modifier>
+            </item>
+            <item>
+                <name>Cold Iron Guisarme</name>
+                <slot>3</slot>
+                <type>6</type>
+                <damage>2d4</damage>
+                <damageType>3</damageType>
+                <property>1025</property>
+                <critMult>3</critMult>
+                <weight>12.0</weight>
+                <value>9.0</value>
+                <text>A guisarme has reach. You can strike opponents 10 feet away with it, but you can’t use it against
+                    an adjacent foe.
+                    You can also use it to make trip attacks. If you are tripped during your own trip attempt, you can
+                    drop the guisarme to avoid being tripped.
+                </text>
+            </item>
+            <item>
+                <name>Flail, Heavy (Silver)</name>
+                <slot>3</slot>
+                <type>6</type>
+                <damage>1d10</damage>
+                <damageType>1</damageType>
+                <property>1</property>
+                <critDie>19</critDie>
+                <weight>10.0</weight>
+                <value>15.0</value>
+                <text>With a flail, you get a +2 bonus on opposed attack rolls made to disarm an enemy (including the
+                    roll to avoid being disarmed if such an attempt fails).
+                    You can also use this weapon to make trip attacks. If you are tripped during your own trip attempt,
+                    you can drop the flail to avoid being tripped.
+                </text>
+                <modifier>
+                    <value>-1</value>
+                </modifier>
+            </item>
+            <item>
+                <name>Longbow +1 (4 Str)</name>
+                <type>7</type>
+                <damage>1d8</damage>
+                <damageType>2</damageType>
+                <range>110</range>
+                <property>21</property>
+                <critMult>3</critMult>
+                <weight>3.0</weight>
+                <value>100.0</value>
+                <text>You need at least two hands to use a bow, regardless of its size. You can use a composite longbow
+                    while mounted. All composite bows are made with a particular strength rating (that is, each requires
+                    a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the
+                    strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on
+                    attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use
+                    with proficiency. A composite longbow can be made with a high strength rating to take advantage of
+                    an above-average Strength score; this feature allows you to add your Strength bonus to damage, up to
+                    the maximum bonus indicated for the bow. Each point of Strength bonus granted by the bow adds 100 gp
+                    to its cost.
+                    For purposes of weapon proficiency and similar feats, a composite longbow is treated as if it were a
+                    longbow.
+                </text>
+                <modifier>
+                    <value>1</value>
+                </modifier>
+                <modifier>
+                    <type>8</type>
+                    <value>4</value>
+                </modifier>
+            </item>
+            <item>
+                <name>Dagger</name>
+                <type>4</type>
+                <damage>1d4</damage>
+                <damageType>5</damageType>
+                <range>10</range>
+                <critDie>19</critDie>
+                <weight>1.0</weight>
+                <value>2.0</value>
+                <quantity>2</quantity>
+                <text>You get a +2 bonus on Sleight of Hand checks made to conceal a dagger on your body (see the
+                    Sleight of Hand skill).
+                </text>
+            </item>
+            <item>
+                <name>Alchemist’s Fire (flask)</name>
+                <damage>1d4</damage>
+                <weight>1.0</weight>
+                <value>20.0</value>
+                <quantity>2</quantity>
+                <text>You can throw a flask of alchemist’s fire as a splash weapon. Treat this attack as a ranged touch
+                    attack with a range increment of 10 feet.
+                    A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the
+                    flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the
+                    target takes an additional 1d6 points of damage. If desired, the target can use a full-round action
+                    to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames
+                    requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save.
+                    Leaping into a lake or magically extinguishing the flames automatically smothers the fire.
+                </text>
+            </item>
+        </container>
+        <container>
+            <name>Backpack / Quiver</name>
+            <item>
+                <name>Arrows</name>
+                <type>8</type>
+                <damage>1d4</damage>
+                <weight>0.15</weight>
+                <value>0.05</value>
+                <quantity>40</quantity>
+                <text>An arrow used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack
+                    rolls) and deals damage as a dagger of its size (critical multiplier x2). Arrows come in a leather
+                    quiver that holds 20 arrows. An arrow that hits its target is destroyed; one that misses has a 50%
+                    chance of being destroyed or lost.
+                </text>
+            </item>
+            <item>
+                <name>Sunrod</name>
+                <damage>1d4</damage>
+                <weight>1.0</weight>
+                <value>2.0</value>
+                <quantity>3</quantity>
+                <text>This 1-foot-long, gold-tipped, iron rod glows brightly when struck. It clearly illuminates a
+                    30-foot radius and provides shadowy illumination in a 60-foot radius. It glows for 6 hours, after
+                    which the gold tip is burned out and worthless.
+                </text>
+            </item>
+            <item>
+                <name>Thieves’ Tools, Masterwork</name>
+                <damage>1d4</damage>
+                <weight>2.0</weight>
+                <value>100.0</value>
+                <text>This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on
+                    Disable Device and Open Lock checks.
+                </text>
+            </item>
+            <item>
+                <name>Rope, Silk (50 ft.)</name>
+                <damage>1d4</damage>
+                <weight>5.0</weight>
+                <value>10.0</value>
+                <text>This rope has 4 hit points and can be burst with a DC 24 Strength check. It is so supple that it
+                    provides a +2 circumstance bonus on Use Rope checks.
+                </text>
+            </item>
+            <item>
+                <name>Waterskin</name>
+                <damage>1d4</damage>
+                <weight>4.0</weight>
+                <value>1.0</value>
+                <quantity>2</quantity>
+            </item>
+            <item>
+                <name>Rations, Trail (per day)</name>
+                <damage>1d4</damage>
+                <weight>1.0</weight>
+                <value>0.5</value>
+                <quantity>7</quantity>
+            </item>
+            <item>
+                <name>Crowbar</name>
+                <damage>1d4</damage>
+                <weight>5.0</weight>
+                <value>2.0</value>
+                <text>A crowbar it grants a +2 circumstance bonus on Strength checks made for such purposes. If used in
+                    combat, treat a crowbar as a one-handed improvised weapon that deals bludgeoning damage equal to
+                    that of a club of its size.
+                </text>
+            </item>
+            <item>
+                <name>Potion Cure Light</name>
+                <damage>1d4</damage>
+                <weight>1.0</weight>
+                <quantity>2</quantity>
+            </item>
+            <item>
+                <name>Holy Symbol, Pelor</name>
+                <damage>1d4</damage>
+                <value>1.0</value>
+                <text>A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and
+                    as a tool for turning undead. Each religion has its own holy symbol.
+                    Unholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is
+                    used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).
+                </text>
+            </item>
+            <item>
+                <name>Chalk</name>
+                <damage>1d4</damage>
+                <value>0.01</value>
+            </item>
+            <item>
+                <name>Bedroll</name>
+                <damage>1d4</damage>
+                <weight>5.0</weight>
+                <value>0.1</value>
+            </item>
+            <item>
+                <name>Brooch</name>
+                <damage>1d4</damage>
+                <value>600.0</value>
+            </item>
+            <item>
+                <name>Gold Pieces</name>
+                <type>18</type>
+                <damage>1d4</damage>
+                <weight>0.02</weight>
+                <value>1437.0</value>
+            </item>
+        </container>
+        <monster>
+            <name>Horse, Light</name>
+            <size>5</size>
+            <type>Animal</type>
+            <initiative>1</initiative>
+            <senses>low-light vision, scent</senses>
+            <ac>13</ac>
+            <flatFootedAC>12</flatFootedAC>
+            <acMods>-1 size, +1 Dex, +3 natural</acMods>
+            <hpMax>19</hpMax>
+            <hpCurrent>19</hpCurrent>
+            <hd>3d8+6</hd>
+            <fortitude>5</fortitude>
+            <reflex>4</reflex>
+            <will>2</will>
+            <speed>60 ft.</speed>
+            <attackMelee>2 hooves -2 (1d4+1*)</attackMelee>
+            <space>10 ft.</space>
+            <reach>5 ft.</reach>
+            <abilities>10,14,13,15,2,12,6,</abilities>
+            <baseAttack>2</baseAttack>
+            <grapple>8</grapple>
+            <feats>Endurance, Run</feats>
+            <skills>Listen +4, Spot +4</skills>
+            <feat>
+                <name>Carrying Capacity</name>
+                <text>A light load for a light horse is up to 150 pounds; a medium load, 151-300 pounds; and a heavy
+                    load, 301-450 pounds. A light horse can drag 2,250 pounds.
+                </text>
+            </feat>
+            <action>
+                <name>Hooves</name>
+                <attack>-2</attack>
+                <damage>1d4+1</damage>
+            </action>
+        </monster>
+    </character>
+</pc>
