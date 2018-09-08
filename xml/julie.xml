@@ -1,0 +1,2338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pc version="3">
+    <character>
+        <uniqueID>1047</uniqueID>
+        <name>Jules</name>
+        <imageData>
+            <uniqueID>1049</uniqueID>
+        </imageData>
+        <race>
+            <name>Human</name>
+            <gender>Female</gender>
+            <age>23</age>
+            <height>5’7”</height>
+            <weight>140</weight>
+            <hair>Brown</hair>
+            <eyes>Brown</eyes>
+            <feat>
+                <name>Bonus Feat</name>
+                <text>1 extra feat at 1st level.</text>
+            </feat>
+            <feat>
+                <name>Skilled</name>
+                <text>4 extra skill points at 1st level and 1 extra skill point at each additional level.</text>
+                <modifier>
+                    <type>28</type>
+                    <value>1</value>
+                </modifier>
+            </feat>
+            <feat>
+                <name>Languages</name>
+                <text>Common. Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak
+                    Language skill.
+                </text>
+            </feat>
+            <feat>
+                <name>Favored Class</name>
+                <text>Any. When determining whether a multiclass human takes an experience point penalty, his or her
+                    highest-level class does not count.
+                </text>
+            </feat>
+        </race>
+        <class>
+            <id>1111</id>
+            <name>Monk</name>
+            <level>8</level>
+            <skills>Balance, Climb, Concentration, Craft, Diplomacy, Escape Artist, Hide, Jump, Knowledge (arcana),
+                Knowledge (religion), Listen, Move Silently, Perform, Profession, Sense Motive, Spot, Swim, Tumble
+            </skills>
+            <skillPoints>4</skillPoints>
+            <wealth>5d4</wealth>
+            <baseAttack>6</baseAttack>
+            <fortitude>6</fortitude>
+            <reflex>6</reflex>
+            <will>6</will>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Weapon and Armor Proficiency</name>
+                <text>Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama,
+                    nunchaku, quarterstaff, sai, shuriken, siangham, and sling.
+                    Monks are not proficient with any armor or shields
+                    When wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC bonus,
+                    as well as her fast movement and flurry of blows abilities.
+                </text>
+            </feat>
+            <feat>
+                <name>AC Bonus (Ex)</name>
+                <text>When unarmored and unencumbered, the monk adds her Wisdom bonus (if any) to her AC. In addition, a
+                    monk gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five monk levels
+                    thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).
+                    These bonuses to AC apply even against touch attacks or when the monk is flat-footed. She loses
+                    these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a
+                    shield, or when she carries a medium or heavy load.
+                </text>
+            </feat>
+            <feat>
+                <name>Flurry of Blows (Ex)</name>
+                <text>When unarmored, a monk may strike with a flurry of blows at the expense of accuracy. When doing
+                    so, she may make one extra attack in a round at her highest base attack bonus, but this attack takes
+                    a -2 penalty, as does each other attack made that round. The resulting modified base attack bonuses
+                    are shown in the Flurry of Blows Attack Bonus column on Table: The Monk. This penalty applies for 1
+                    round, so it also affects attacks of opportunity the monk might make before her next action. When a
+                    monk reaches 5th level, the penalty lessens to -1, and at 9th level it disappears. A monk must use a
+                    full attack action to strike with a flurry of blows.
+                    When using flurry of blows, a monk may attack only with unarmed strikes or with special monk weapons
+                    (kama, nunchaku, quarterstaff, sai, shuriken, and siangham). She may attack with unarmed strikes and
+                    special monk weapons interchangeably as desired. When using weapons as part of a flurry of blows, a
+                    monk applies her Strength bonus (not Str bonus × 1½ or ×½) to her damage rolls for all successful
+                    attacks, whether she wields a weapon in one or both hands. The monk can’t use any weapon other than
+                    a special monk weapon as part of a flurry of blows.
+                    In the case of the quarterstaff, each end counts as a separate weapon for the purpose of using the
+                    flurry of blows ability. Even though the quarterstaff requires two hands to use, a monk may still
+                    intersperse unarmed strikes with quarterstaff strikes, assuming that she has enough attacks in her
+                    flurry of blows routine to do so.
+                    Greater Flurry. When a monk reaches 11th level, her flurry of blows ability improves. In addition to
+                    the standard single extra attack she gets from flurry of blows, she gets a second extra attack at
+                    her full base attack bonus.
+                </text>
+            </feat>
+            <feat>
+                <name>Unarmed Strike</name>
+                <text>At 1st level, a monk gains Improved Unarmed Strike as a bonus feat. A monk’s attacks may be with
+                    either fist interchangeably or even from elbows, knees, and feet. This means that a monk may even
+                    make unarmed strikes with her hands full. There is no such thing as an off-hand attack for a monk
+                    striking unarmed. A monk may thus apply her full Strength bonus on damage rolls for all her unarmed
+                    strikes.
+                    Usually a monk’s unarmed strikes deal lethal damage, but she can choose to deal nonlethal damage
+                    instead with no penalty on her attack roll. She has the same choice to deal lethal or nonlethal
+                    damage while grappling.
+                    A monk’s unarmed strike is treated both as a manufactured weapon and a natural weapon for the
+                    purpose of spells and effects that enhance or improve either manufactured weapons or natural
+                    weapons.
+                    A monk also deals more damage with her unarmed strikes than a normal person would, as shown on
+                    Table: The Monk. The unarmed damage on Table: The Monk is for Medium monks. A Small monk deals less
+                    damage than the amount given there with her unarmed attacks, while a Large monk deals more damage;
+                    see Table: Small or Large Monk Unarmed Damage.
+                </text>
+            </feat>
+            <feat>
+                <name>Bonus Feat</name>
+                <text>At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At 2nd
+                    level, she may select either Combat Reflexes or Deflect Arrows as a bonus feat. At 6th level, she
+                    may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not have any of the
+                    prerequisites normally required for these feats to select them.
+                </text>
+            </feat>
+            <feat>
+                <name>Evasion (Ex)</name>
+                <text>At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that
+                    normally deals half damage on a successful save, she instead takes no damage. Evasion can be used
+                    only if a monk is wearing light armor or no armor. A helpless monk does not gain the benefit of
+                    evasion.
+                </text>
+            </feat>
+            <feat>
+                <name>Fast Movement (Ex)</name>
+                <text>At 3rd level, a monk gains an enhancement bonus to her speed, as shown on Table: The Monk. A monk
+                    in armor or carrying a medium or heavy load loses this extra speed.
+                </text>
+                <modifier>
+                    <type>19</type>
+                    <value>20</value>
+                </modifier>
+            </feat>
+            <feat>
+                <name>Still Mind (Ex)</name>
+                <text>A monk of 3rd level or higher gains a +2 bonus on saving throws against spells and effects from
+                    the school of enchantment.
+                </text>
+            </feat>
+            <feat>
+                <name>Ki Strike (Su)</name>
+                <text>At 4th level, a monk’s unarmed attacks are empowered with ki. Her unarmed attacks are treated as
+                    magic weapons for the purpose of dealing damage to creatures with damage reduction. Ki strike
+                    improves with the character’s monk level. At 10th level, her unarmed attacks are also treated as
+                    lawful weapons for the purpose of dealing damage to creatures with damage reduction. At 16th level,
+                    her unarmed attacks are treated as adamantine weapons for the purpose of dealing damage to creatures
+                    with damage reduction and bypassing hardness.
+                </text>
+            </feat>
+            <feat>
+                <name>Slow Fall (Ex)</name>
+                <text>At 4th level or higher, a monk within arm’s reach of a wall can use it to slow her descent. When
+                    first using this ability, she takes damage as if the fall were 20 feet shorter than it actually is.
+                    The monk’s ability to slow her fall (that is, to reduce the effective distance of the fall when next
+                    to a wall) improves with her monk level until at 20th level she can use a nearby wall to slow her
+                    descent and fall any distance without harm.
+                </text>
+            </feat>
+            <feat>
+                <name>Purity of Body (Ex)</name>
+                <text>At 5th level, a monk gains immunity to all diseases except for supernatural and magical
+                    diseases.
+                </text>
+            </feat>
+            <feat>
+                <name>Wholeness of Body (Su)</name>
+                <text>At 7th level or higher, a monk can heal her own wounds. She can heal a number of hit points of
+                    damage equal to twice her current monk level each day, and she can spread this healing out among
+                    several uses.
+                </text>
+            </feat>
+            <autolevel>
+                <fortitude>2</fortitude>
+                <reflex>2</reflex>
+                <will>2</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Weapon and Armor Proficiency</name>
+                    <text>Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama,
+                        nunchaku, quarterstaff, sai, shuriken, siangham, and sling.
+                        Monks are not proficient with any armor or shields
+                        When wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC
+                        bonus, as well as her fast movement and flurry of blows abilities.
+                    </text>
+                </feat>
+                <feat>
+                    <name>AC Bonus (Ex)</name>
+                    <text>When unarmored and unencumbered, the monk adds her Wisdom bonus (if any) to her AC. In
+                        addition, a monk gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five
+                        monk levels thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).
+                        These bonuses to AC apply even against touch attacks or when the monk is flat-footed. She loses
+                        these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a
+                        shield, or when she carries a medium or heavy load.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Flurry of Blows (Ex)</name>
+                    <text>When unarmored, a monk may strike with a flurry of blows at the expense of accuracy. When
+                        doing so, she may make one extra attack in a round at her highest base attack bonus, but this
+                        attack takes a -2 penalty, as does each other attack made that round. The resulting modified
+                        base attack bonuses are shown in the Flurry of Blows Attack Bonus column on Table: The Monk.
+                        This penalty applies for 1 round, so it also affects attacks of opportunity the monk might make
+                        before her next action. When a monk reaches 5th level, the penalty lessens to -1, and at 9th
+                        level it disappears. A monk must use a full attack action to strike with a flurry of blows.
+                        When using flurry of blows, a monk may attack only with unarmed strikes or with special monk
+                        weapons (kama, nunchaku, quarterstaff, sai, shuriken, and siangham). She may attack with unarmed
+                        strikes and special monk weapons interchangeably as desired. When using weapons as part of a
+                        flurry of blows, a monk applies her Strength bonus (not Str bonus × 1½ or ×½) to her damage
+                        rolls for all successful attacks, whether she wields a weapon in one or both hands. The monk
+                        can’t use any weapon other than a special monk weapon as part of a flurry of blows.
+                        In the case of the quarterstaff, each end counts as a separate weapon for the purpose of using
+                        the flurry of blows ability. Even though the quarterstaff requires two hands to use, a monk may
+                        still intersperse unarmed strikes with quarterstaff strikes, assuming that she has enough
+                        attacks in her flurry of blows routine to do so.
+                        Greater Flurry. When a monk reaches 11th level, her flurry of blows ability improves. In
+                        addition to the standard single extra attack she gets from flurry of blows, she gets a second
+                        extra attack at her full base attack bonus.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Unarmed Strike</name>
+                    <text>At 1st level, a monk gains Improved Unarmed Strike as a bonus feat. A monk’s attacks may be
+                        with either fist interchangeably or even from elbows, knees, and feet. This means that a monk
+                        may even make unarmed strikes with her hands full. There is no such thing as an off-hand attack
+                        for a monk striking unarmed. A monk may thus apply her full Strength bonus on damage rolls for
+                        all her unarmed strikes.
+                        Usually a monk’s unarmed strikes deal lethal damage, but she can choose to deal nonlethal damage
+                        instead with no penalty on her attack roll. She has the same choice to deal lethal or nonlethal
+                        damage while grappling.
+                        A monk’s unarmed strike is treated both as a manufactured weapon and a natural weapon for the
+                        purpose of spells and effects that enhance or improve either manufactured weapons or natural
+                        weapons.
+                        A monk also deals more damage with her unarmed strikes than a normal person would, as shown on
+                        Table: The Monk. The unarmed damage on Table: The Monk is for Medium monks. A Small monk deals
+                        less damage than the amount given there with her unarmed attacks, while a Large monk deals more
+                        damage; see Table: Small or Large Monk Unarmed Damage.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Bonus Feat</name>
+                    <text>At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At
+                        2nd level, she may select either Combat Reflexes or Deflect Arrows as a bonus feat. At 6th
+                        level, she may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not
+                        have any of the prerequisites normally required for these feats to select them.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <baseAttack>1</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>3</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Evasion (Ex)</name>
+                    <text>At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that
+                        normally deals half damage on a successful save, she instead takes no damage. Evasion can be
+                        used only if a monk is wearing light armor or no armor. A helpless monk does not gain the
+                        benefit of evasion.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <baseAttack>2</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>3</reflex>
+                <will>3</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Fast Movement (Ex)</name>
+                    <text>At 3rd level, a monk gains an enhancement bonus to her speed, as shown on Table: The Monk. A
+                        monk in armor or carrying a medium or heavy load loses this extra speed.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Still Mind (Ex)</name>
+                    <text>A monk of 3rd level or higher gains a +2 bonus on saving throws against spells and effects
+                        from the school of enchantment.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>4</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Ki Strike (Su)</name>
+                    <text>At 4th level, a monk’s unarmed attacks are empowered with ki. Her unarmed attacks are treated
+                        as magic weapons for the purpose of dealing damage to creatures with damage reduction. Ki strike
+                        improves with the character’s monk level. At 10th level, her unarmed attacks are also treated as
+                        lawful weapons for the purpose of dealing damage to creatures with damage reduction. At 16th
+                        level, her unarmed attacks are treated as adamantine weapons for the purpose of dealing damage
+                        to creatures with damage reduction and bypassing hardness.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Slow Fall (Ex)</name>
+                    <text>At 4th level or higher, a monk within arm’s reach of a wall can use it to slow her descent.
+                        When first using this ability, she takes damage as if the fall were 20 feet shorter than it
+                        actually is. The monk’s ability to slow her fall (that is, to reduce the effective distance of
+                        the fall when next to a wall) improves with her monk level until at 20th level she can use a
+                        nearby wall to slow her descent and fall any distance without harm.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>4</reflex>
+                <will>4</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Purity of Body (Ex)</name>
+                    <text>At 5th level, a monk gains immunity to all diseases except for supernatural and magical
+                        diseases.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <baseAttack>4</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>5</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <baseAttack>5</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>5</reflex>
+                <will>5</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Wholeness of Body (Su)</name>
+                    <text>At 7th level or higher, a monk can heal her own wounds. She can heal a number of hit points of
+                        damage equal to twice her current monk level each day, and she can spread this healing out among
+                        several uses.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>6</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>6</reflex>
+                <will>6</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Improved Evasion (Ex)</name>
+                    <text>At 9th level, a monk’s evasion ability improves. She still takes no damage on a successful
+                        Reflex saving throw against attacks, but henceforth she takes only half damage on a failed save.
+                        A helpless monk does not gain the benefit of improved evasion.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <baseAttack>7</baseAttack>
+                <fortitude>7</fortitude>
+                <reflex>7</reflex>
+                <will>7</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <baseAttack>8</baseAttack>
+                <fortitude>7</fortitude>
+                <reflex>7</reflex>
+                <will>7</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Diamond Body (Su)</name>
+                    <text>At 11th level, a monk gains immunity to poisons of all kinds.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>8</fortitude>
+                <reflex>8</reflex>
+                <will>8</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Abundant Step (Su)</name>
+                    <text>At 12th level or higher, a monk can slip magically between spaces, as if using the spell
+                        dimension door, once per day. Her caster level for this effect is one-half her monk level
+                        (rounded down).
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>8</fortitude>
+                <reflex>8</reflex>
+                <will>8</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Diamond Soul (Ex)</name>
+                    <text>At 13th level, a monk gains spell resistance equal to her current monk level + 10. In order to
+                        affect the monk with a spell, a spellcaster must get a result on a caster level check (1d20 +
+                        caster level) that equals or exceeds the monk’s spell resistance.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <baseAttack>10</baseAttack>
+                <fortitude>9</fortitude>
+                <reflex>9</reflex>
+                <will>9</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <baseAttack>11</baseAttack>
+                <fortitude>9</fortitude>
+                <reflex>9</reflex>
+                <will>9</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Quivering Palm (Su)</name>
+                    <text>Starting at 15th level, a monk can set up vibrations within the body of another creature that
+                        can thereafter be fatal if the monk so desires. She can use this quivering palm attack once a
+                        week, and she must announce her intent before making her attack roll. Constructs, oozes, plants,
+                        undead, incorporeal creatures, and creatures immune to critical hits cannot be affected.
+                        Otherwise, if the monk strikes successfully and the target takes damage from the blow, the
+                        quivering palm attack succeeds. Thereafter the monk can try to slay the victim at any later
+                        time, as long as the attempt is made within a number of days equal to her monk level. To make
+                        such an attempt, the monk merely wills the target to die (a free action), and unless the target
+                        makes a Fortitude saving throw (DC 10 + ½ the monk’s level + the monk’s Wis modifier), it dies.
+                        If the saving throw is successful, the target is no longer in danger from that particular
+                        quivering palm attack, but it may still be affected by another one at a later time.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <baseAttack>12</baseAttack>
+                <fortitude>10</fortitude>
+                <reflex>10</reflex>
+                <will>10</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <baseAttack>12</baseAttack>
+                <fortitude>10</fortitude>
+                <reflex>10</reflex>
+                <will>10</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Timeless Body (Ex)</name>
+                    <text>Upon attaining 17th level, a monk no longer takes penalties to her ability scores for aging
+                        and cannot be magically aged. Any such penalties that she has already taken, however, remain in
+                        place. Bonuses still accrue, and the monk still dies of old age when her time is up.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Tongue of the Sun and Moon (Ex)</name>
+                    <text>A monk of 17th level or higher can speak with any living creature.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <baseAttack>13</baseAttack>
+                <fortitude>11</fortitude>
+                <reflex>11</reflex>
+                <will>11</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <baseAttack>14</baseAttack>
+                <fortitude>11</fortitude>
+                <reflex>11</reflex>
+                <will>11</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Empty Body (Su)</name>
+                    <text>At 19th level, a monk gains the ability to assume an ethereal state for 1 round per monk level
+                        per day, as though using the spell etherealness. She may go ethereal on a number of different
+                        occasions during any single day, as long as the total number of rounds spent in an ethereal
+                        state does not exceed her monk level.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <baseAttack>15</baseAttack>
+                <fortitude>12</fortitude>
+                <reflex>12</reflex>
+                <will>12</will>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Perfect Self</name>
+                    <text>At 20th level, a monk becomes a magical creature. She is forevermore treated as an outsider
+                        rather than as a humanoid (or whatever the monk’s creature type was) for the purpose of spells
+                        and magical effects. Additionally, the monk gains damage reduction 10/magic, which allows her to
+                        ignore the first 10 points of damage from any attack made by a nonmagical weapon or by any
+                        natural attack made by a creature that doesn’t have similar damage reduction. Unlike other
+                        outsiders, the monk can still be brought back from the dead as if she were a member of her
+                        previous creature type.
+                    </text>
+                </feat>
+            </autolevel>
+            <skills>Balance, Climb, Concentration, Craft, Diplomacy, Escape Artist, Hide, Jump, Knowledge (arcana),
+                Knowledge (religion), Listen, Move Silently, Perform, Profession, Sense Motive, Spot, Swim, Tumble
+            </skills>
+            <spellAbility>6</spellAbility>
+        </class>
+        <class>
+            <id>1098</id>
+            <name>Wizard</name>
+            <hd>0</hd>
+            <skills>Concentration, Craft, Decipher Script, Knowledge, Profession, Spellcraft</skills>
+            <wealth>3d4x10</wealth>
+            <will>2</will>
+            <slots>3,1,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <feat>
+                <name>Weapon and Armor Proficiency</name>
+                <text>Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff,
+                    but not with any type of armor or shield. Armor of any type interferes with a wizard’s movements,
+                    which can cause her spells with somatic components to fail.
+                </text>
+            </feat>
+            <feat>
+                <name>Spells</name>
+                <text>A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard must
+                    choose and prepare her spells ahead of time (see below).
+                    To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10
+                    + the spell level. The Difficulty Class for a saving throw against a wizard’s spell is 10 + the
+                    spell level + the wizard’s Intelligence modifier.
+                    Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per
+                    day. Her base daily spell allotment is given on Table: The Wizard. In addition, she receives bonus
+                    spells per day if she has a high Intelligence score.
+                    Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her
+                    spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook.
+                    While studying, the wizard decides which spells to prepare.
+                </text>
+            </feat>
+            <feat>
+                <name>Spellbooks</name>
+                <text>A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not
+                    recorded in her spellbook, except for read magic, which all wizards can prepare from memory.
+                    A wizard begins play with a spellbook containing all 0-level wizard spells (except those from her
+                    prohibited school or schools, if any; see School Specialization, below) plus three 1st-level spells
+                    of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one
+                    additional 1st-level spell of your choice. At each new wizard level, she gains two new spells of any
+                    spell level or levels that she can cast (based on her new wizard level) for her spellbook. At any
+                    time, a wizard can also add spells found in other wizards’ spellbooks to her own.
+                </text>
+            </feat>
+            <autolevel>
+                <will>2</will>
+                <slots>3,1,0,0,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Weapon and Armor Proficiency</name>
+                    <text>Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and
+                        quarterstaff, but not with any type of armor or shield. Armor of any type interferes with a
+                        wizard’s movements, which can cause her spells with somatic components to fail.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Spells</name>
+                    <text>A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard
+                        must choose and prepare her spells ahead of time (see below).
+                        To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least
+                        10 + the spell level. The Difficulty Class for a saving throw against a wizard’s spell is 10 +
+                        the spell level + the wizard’s Intelligence modifier.
+                        Like other spellcasters, a wizard can cast only a certain number of spells of each spell level
+                        per day. Her base daily spell allotment is given on Table: The Wizard. In addition, she receives
+                        bonus spells per day if she has a high Intelligence score.
+                        Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare
+                        her spells ahead of time by getting a good night’s sleep and spending 1 hour studying her
+                        spellbook. While studying, the wizard decides which spells to prepare.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Spellbooks</name>
+                    <text>A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell
+                        not recorded in her spellbook, except for read magic, which all wizards can prepare from memory.
+                        A wizard begins play with a spellbook containing all 0-level wizard spells (except those from
+                        her prohibited school or schools, if any; see School Specialization, below) plus three 1st-level
+                        spells of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds
+                        one additional 1st-level spell of your choice. At each new wizard level, she gains two new
+                        spells of any spell level or levels that she can cast (based on her new wizard level) for her
+                        spellbook. At any time, a wizard can also add spells found in other wizards’ spellbooks to her
+                        own.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Bonus Languages</name>
+                    <text>A wizard may substitute Draconic for one of the bonus languages available to the character
+                        because of her race.
+                    </text>
+                </feat>
+                <feat>
+                    <name>Familiar</name>
+                    <text>A wizard can obtain a familiar in exactly the same manner as a sorcerer can.</text>
+                </feat>
+                <feat>
+                    <name>Scribe Scroll</name>
+                    <text>At 1st level, a wizard gains Scribe Scroll as a bonus feat.</text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <baseAttack>1</baseAttack>
+                <will>3</will>
+                <slots>4,2,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <baseAttack>1</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>1</reflex>
+                <will>3</will>
+                <slots>4,2,1,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <baseAttack>2</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>1</reflex>
+                <will>4</will>
+                <slots>4,3,2,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <baseAttack>2</baseAttack>
+                <fortitude>1</fortitude>
+                <reflex>1</reflex>
+                <will>4</will>
+                <slots>4,3,2,1,0,0,0,0,0,0,</slots>
+                <feat>
+                    <name>Bonus Feats</name>
+                    <text>At 5th level, a wizard gains a bonus feat. At each such opportunity, she can choose a
+                        metamagic feat, an item creation feat, or Spell Mastery. The wizard must still meet all
+                        prerequisites for a bonus feat, including caster level minimums.
+                        These bonus feats are in addition to the feat that a character of any class gets from advancing
+                        levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or
+                        Spell Mastery when choosing these feats.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>2</reflex>
+                <will>5</will>
+                <slots>4,3,3,2,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <baseAttack>3</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>2</reflex>
+                <will>5</will>
+                <slots>4,4,3,2,1,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <baseAttack>4</baseAttack>
+                <fortitude>2</fortitude>
+                <reflex>2</reflex>
+                <will>6</will>
+                <slots>4,4,3,3,2,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <baseAttack>4</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>3</reflex>
+                <will>6</will>
+                <slots>4,4,4,3,2,1,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <baseAttack>5</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>3</reflex>
+                <will>7</will>
+                <slots>4,4,4,3,3,2,0,0,0,0,</slots>
+                <feat>
+                    <name>Bonus Feats</name>
+                    <text>At 10th, a wizard gains a bonus feat. At each such opportunity, she can choose a metamagic
+                        feat, an item creation feat, or Spell Mastery. The wizard must still meet all prerequisites for
+                        a bonus feat, including caster level minimums.
+                        These bonus feats are in addition to the feat that a character of any class gets from advancing
+                        levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or
+                        Spell Mastery when choosing these feats.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <baseAttack>5</baseAttack>
+                <fortitude>3</fortitude>
+                <reflex>3</reflex>
+                <will>7</will>
+                <slots>4,6,4,4,3,2,1,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>4</reflex>
+                <will>8</will>
+                <slots>4,4,4,4,3,3,2,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <baseAttack>6</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>4</reflex>
+                <will>8</will>
+                <slots>4,4,4,4,4,3,2,1,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <baseAttack>7</baseAttack>
+                <fortitude>4</fortitude>
+                <reflex>4</reflex>
+                <will>9</will>
+                <slots>4,4,4,4,4,3,3,2,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <baseAttack>7</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>5</reflex>
+                <will>9</will>
+                <slots>4,4,4,4,4,4,3,2,1,0,</slots>
+                <feat>
+                    <name>Bonus Feats</name>
+                    <text>At 15th, a wizard gains a bonus feat. At each such opportunity, she can choose a metamagic
+                        feat, an item creation feat, or Spell Mastery. The wizard must still meet all prerequisites for
+                        a bonus feat, including caster level minimums.
+                        These bonus feats are in addition to the feat that a character of any class gets from advancing
+                        levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or
+                        Spell Mastery when choosing these feats.
+                    </text>
+                </feat>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <baseAttack>8</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>5</reflex>
+                <will>10</will>
+                <slots>4,4,4,4,4,4,3,3,2,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <baseAttack>8</baseAttack>
+                <fortitude>5</fortitude>
+                <reflex>5</reflex>
+                <will>10</will>
+                <slots>4,4,4,4,4,4,4,3,2,1,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>6</reflex>
+                <will>11</will>
+                <slots>4,4,4,4,4,4,4,3,3,2,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <baseAttack>9</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>6</reflex>
+                <will>11</will>
+                <slots>4,4,4,4,4,4,4,4,3,3,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <baseAttack>10</baseAttack>
+                <fortitude>6</fortitude>
+                <reflex>6</reflex>
+                <will>12</will>
+                <slots>4,4,4,4,4,4,4,4,4,4,</slots>
+                <feat>
+                    <name>Bonus Feats</name>
+                    <text>At 20th level, a wizard gains a bonus feat. At each such opportunity, she can choose a
+                        metamagic feat, an item creation feat, or Spell Mastery. The wizard must still meet all
+                        prerequisites for a bonus feat, including caster level minimums.
+                        These bonus feats are in addition to the feat that a character of any class gets from advancing
+                        levels. The wizard is not limited to the categories of item creation feats, metamagic feats, or
+                        Spell Mastery when choosing these feats.
+                    </text>
+                </feat>
+            </autolevel>
+            <skills>Concentration, Craft, Decipher Script, Knowledge, Profession, Spellcraft</skills>
+            <spellAbility>4</spellAbility>
+            <spell>
+                <src>1</src>
+                <name>Shield</name>
+                <level>1</level>
+                <school>1</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Personal</range>
+                <target>You</target>
+                <duration>1 min./level (D)</duration>
+                <sr>No</sr>
+                <text>Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you.
+                    It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC.
+                    This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no
+                    armor check penalty or arcane spell failure chance. Unlike with a normal tower shield, you can’t use
+                    the shield spell for cover.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                    <level>1</level>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Flare</name>
+                <school>5</school>
+                <components>V</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <effect>Burst of light</effect>
+                <duration>Instantaneous</duration>
+                <save>Fortitude negates</save>
+                <sr>Yes</sr>
+                <text>This cantrip creates a burst of light. If you cause the light to burst directly in front of a
+                    single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
+                    Sightless creatures, as well as creatures already dazzled, are not affected by flare.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Detect Magic</name>
+                <school>3</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>60 ft.</range>
+                <area>Cone-shaped emanation</area>
+                <duration>Concentration, up to 1 min./level (D)</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You detect magical auras. The amount of information revealed depends on how long you study a
+                    particular area or subject.
+                    1st Round: Presence or absence of magical auras.
+                    2nd Round: Number of different magical auras and the power of the most potent aura.
+                    3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are
+                    in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in
+                    each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell
+                    effect.)
+                    Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal
+                    weaker auras.
+                    Aura Strength: An aura’s power depends on a spell’s functioning spell level or an item’s caster
+                    level. If an aura falls into more than one category, detect magic indicates the stronger of the two.
+                    Lingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell)
+                    or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a
+                    location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the
+                    aura lingers at this dim level depends on its original power:
+                    Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration
+                    spell registers.
+                    Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot
+                    of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+                    Detect magic can be made permanent with a permanency spell.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Shocking Grasp</name>
+                <level>1</level>
+                <school>5</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Creature or object touched</target>
+                <duration>Instantaneous</duration>
+                <save>None</save>
+                <sr>Yes</sr>
+                <text>Your successful melee touch attack deals 1d6 points of electricity damage per caster level
+                    (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is
+                    wearing metal armor (or made out of metal, carrying a lot of metal, or the like).
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                    <level>1</level>
+                </spellClass>
+                <prepared>2</prepared>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Acid Splash</name>
+                <school>2</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <effect>One missile of acid</effect>
+                <duration>Instantaneous</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your
+                    target. The orb deals 1d3 points of acid damage.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Read Magic</name>
+                <school>3</school>
+                <components>V, S, F</components>
+                <time>1 standard action</time>
+                <range>Personal</range>
+                <target>You</target>
+                <duration>10 min./level</duration>
+                <sr>No</sr>
+                <text>By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons,
+                    and the like—that would otherwise be unintelligible. This deciphering does not normally invoke the
+                    magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore,
+                    once the spell is cast and you have read the magical inscription, you are thereafter able to read
+                    that particular writing without recourse to the use of read magic. You can read at the rate of one
+                    page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13
+                    Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with
+                    a Spellcraft check (DC 10 + spell level).
+                    Read magic can be made permanent with a permanency spell.
+                    Focus: A clear crystal or mineral prism.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Paladin</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Ranger</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Disrupt Undead</name>
+                <school>7</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <effect>Ray</effect>
+                <duration>Instantaneous</duration>
+                <save>None</save>
+                <sr>Yes</sr>
+                <text>You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray
+                    hits an undead creature, it deals 1d6 points of damage to it.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Ghost Sound</name>
+                <school>6</school>
+                <components>V, S, M</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <effect>Illusory sounds</effect>
+                <duration>1 round/level (D)</duration>
+                <save>Will disbelief (if interacted with)</save>
+                <sr>No</sr>
+                <text>Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at
+                    a fixed place. You choose what type of sound ghost sound creates when casting it and cannot
+                    thereafter change the sound’s basic character.
+                    The volume of sound created depends on your level. You can produce as much noise as four normal
+                    humans per caster level (maximum twenty humans). Thus, talking, singing, shouting, walking,
+                    marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually
+                    any type of sound within the volume limit. A horde of rats running and squeaking is about the same
+                    volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen
+                    humans, while a roaring dire tiger is equal to the noise from twenty humans.
+                    Ghost sound can enhance the effectiveness of a silent image spell.
+                    Ghost sound can be made permanent with a permanency spell.
+                    Material Component: A bit of wool or a small lump of wax.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Detect Poison</name>
+                <school>3</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>One creature, one object, or a 5-ft. cube</target>
+                <duration>Instantaneous</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You determine whether a creature, object, or area has been poisoned or is poisonous. You can
+                    determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy)
+                    skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft
+                    (alchemy) check prior to the Wisdom check.
+                    The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead,
+                    or 3 feet of wood or dirt blocks it.
+                </text>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Paladin</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Ranger</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Chill Touch</name>
+                <level>1</level>
+                <school>7</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Creature or creatures touched (up to one/level)</target>
+                <duration>Instantaneous</duration>
+                <save>Fortitude partial or Will negates; see text</save>
+                <sr>Yes</sr>
+                <text>A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.
+                    Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes
+                    1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this
+                    melee touch attack up to one time per level.
+                    An undead creature you touch takes no damage of either sort, but it must make a successful Will
+                    saving throw or flee as if panicked for 1d4 rounds +1 round per caster level.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                    <level>1</level>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Message</name>
+                <school>8</school>
+                <components>V, S, F</components>
+                <time>1 standard action</time>
+                <range>Medium (100 ft. + 10 ft./level)</range>
+                <target>One creature/level</target>
+                <duration>10 min./level</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You can whisper messages and receive whispered replies with little chance of being overheard. You
+                    point your finger at each creature you want to receive the message. When you whisper, the whispered
+                    message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch
+                    of common metal (or a thin sheet of lead), or 3 feet of wood or dirt blocks the spell. The message
+                    does not have to travel in a straight line. It can circumvent a barrier if there is an open path
+                    between you and the subject, and the path’s entire length lies within the spell’s range. The
+                    creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not
+                    meaning. It doesn’t transcend language barriers.
+                    Note: To speak a message, you must mouth the words and whisper, possibly allowing observers the
+                    opportunity to read your lips.
+                    Focus: A short piece of copper wire.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+                <prepared>1</prepared>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Ray of Frost</name>
+                <school>5</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <effect>Ray</effect>
+                <duration>Instantaneous</duration>
+                <save>None</save>
+                <sr>Yes</sr>
+                <text>A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged
+                    touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+                <prepared>1</prepared>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Dancing Lights</name>
+                <school>5</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Medium (100 ft. + 10 ft./level)</range>
+                <effect>Up to four lights, all within a 10- ft.-radius area</effect>
+                <duration>1 minute (D)</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>Depending on the version selected, you create up to four lights that resemble lanterns or torches
+                    (and cast that amount of light), or up to four glowing spheres of light (which look like
+                    will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within
+                    a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration
+                    required): forward or back, up or down, straight or turning corners, or the like. The lights can
+                    move up to 100 feet per round. A light winks out if the distance between you and it exceeds the
+                    spell’s range.
+                    Dancing lights can be made permanent with a permanency spell.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Light</name>
+                <school>5</school>
+                <components>V, M/DF</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Object touched</target>
+                <duration>10 min./level (D)</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and
+                    dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be
+                    cast on a movable object. Light taken into an area of magical darkness does not function.
+                    A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the
+                    darkness descriptor) of an equal or lower level.
+                    Arcane Material Component: A firefly or a piece of phosphorescent moss.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Prestidigitation</name>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>10 ft.</range>
+                <target>See text</target>
+                <duration>1 hour</duration>
+                <save>See text</save>
+                <sr>No</sr>
+                <text>Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a
+                    prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are
+                    minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can
+                    color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of
+                    nonliving material. It cannot deal damage or affect the concentration of spellcasters.
+                    Prestidigitation can create small objects, but they look crude and artificial. The materials created
+                    by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or
+                    spell components. Finally, a prestidigitation lacks the power to duplicate any other spell effects.
+                    Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Arcane Mark</name>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>0 ft.</range>
+                <effect>One personal rune or mark, all of which must fit within 1 sq. ft.</effect>
+                <duration>Permanent</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>This spell allows you to inscribe your personal rune or mark, which can consist of no more than
+                    six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch
+                    the rune upon any substance without harm to the material upon which it is placed. If an invisible
+                    mark is made, a detect magic spell causes it to glow and be visible, though not necessarily
+                    understandable.
+                    See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an
+                    invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled,
+                    but it can be removed by the caster or by an erase spell.
+                    If an arcane mark is placed on a living being, normal wear gradually causes the effect to fade in
+                    about a month.
+                    Arcane mark must be cast on an object prior to casting instant summons on the same object (see that
+                    spell description for details).
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Touch of Fatigue</name>
+                <school>7</school>
+                <components>V, S, M</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Creature touched</target>
+                <duration>1 round/level</duration>
+                <save>Fortitude negates</save>
+                <sr>Yes</sr>
+                <text>You channel negative energy through your touch, fatiguing the target. You must succeed on a touch
+                    attack to strike a target.
+                    The subject is immediately fatigued for the spell’s duration.
+                    This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the
+                    effect ends as soon as the spell’s duration expires.
+                    Material Component: A drop of sweat.
+                </text>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Open/Close</name>
+                <school>8</school>
+                <components>V, S, F</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>Object weighing up to 30 lb. or portal that can be opened or closed</target>
+                <duration>Instantaneous</duration>
+                <save>Will negates (object)</save>
+                <sr>Yes (object)</sr>
+                <text>You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or
+                    other container. If anything resists this activity (such as a bar on a door or a lock on a chest),
+                    the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less.
+                    Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell’s
+                    ability to affect.
+                    Focus: A brass key.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Daze</name>
+                <school>4</school>
+                <components>V, S, M</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>One humanoid creature of 4 HD or less</target>
+                <duration>1 round</duration>
+                <save>Will negates</save>
+                <sr>Yes</sr>
+                <text>This enchantment clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes
+                    no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers
+                    get no special advantage against it.
+                    Material Component: A pinch of wool or similar substance.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Mage Hand</name>
+                <school>8</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>One nonmagical, unattended object weighing up to 5 lb.</target>
+                <duration>Concentration</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You point your finger at an object and can lift it and move it at will from a distance. As a move
+                    action, you can propel the object as far as 15 feet in any direction, though the spell ends if the
+                    distance between you and the object ever exceeds the spell’s range.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Resistance</name>
+                <school>1</school>
+                <components>V, S, M/DF</components>
+                <time>1 standard action</time>
+                <range>Touch</range>
+                <target>Creature touched</target>
+                <duration>1 minute</duration>
+                <save>Will negates (harmless)</save>
+                <sr>Yes (harmless)</sr>
+                <text>You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance
+                    bonus on saves.
+                    Resistance can be made permanent with a permanency spell.
+                    Arcane Material Component: A miniature cloak.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Paladin</name>
+                    <level>1</level>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Mending</name>
+                <school>8</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>10 ft.</range>
+                <target>One object of up to 1 lb.</target>
+                <duration>Instantaneous</duration>
+                <save>Will negates (harmless, object)</save>
+                <sr>Yes (harmless, object)</sr>
+                <text>Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp
+                    wood spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a
+                    slender dagger, providing but one break exists.
+                    Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A
+                    hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a
+                    magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic
+                    rods, staffs, or wands, nor does it affect creatures (including constructs).
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Cleric</name>
+                </spellClass>
+                <spellClass>
+                    <name>Druid</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+            <spell>
+                <src>1</src>
+                <name>Mage Hand</name>
+                <school>8</school>
+                <components>V, S</components>
+                <time>1 standard action</time>
+                <range>Close (25 ft. + 5 ft./2 levels)</range>
+                <target>One nonmagical, unattended object weighing up to 5 lb.</target>
+                <duration>Concentration</duration>
+                <save>None</save>
+                <sr>No</sr>
+                <text>You point your finger at an object and can lift it and move it at will from a distance. As a move
+                    action, you can propel the object as far as 15 feet in any direction, though the spell ends if the
+                    distance between you and the object ever exceeds the spell’s range.
+                </text>
+                <spellClass>
+                    <name>Bard</name>
+                </spellClass>
+                <spellClass>
+                    <name>Sorcerer</name>
+                </spellClass>
+                <spellClass>
+                    <name>Wizard</name>
+                </spellClass>
+            </spell>
+        </class>
+        <class>
+            <name>Enlightened Fist</name>
+            <reflex>2</reflex>
+            <will>2</will>
+            <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            <slotsCurrent>0,0,0,0,0,0,0,0,0,0,</slotsCurrent>
+            <modifier>
+                <type>19</type>
+                <value>10</value>
+            </modifier>
+            <autolevel>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>2</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>3</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>4</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>5</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>6</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>7</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>8</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>9</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>10</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>11</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>12</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>13</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>14</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>15</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>16</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>17</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>18</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>19</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+            <autolevel>
+                <level>20</level>
+                <slots>0,0,0,0,0,0,0,0,0,0,</slots>
+            </autolevel>
+        </class>
+        <skill>
+            <name>Appraise</name>
+        </skill>
+        <skill>
+            <skillID>1</skillID>
+            <name>Balance</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>2</skillID>
+            <name>Bluff</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>3</skillID>
+            <name>Climb</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>4</skillID>
+            <name>Concentration</name>
+            <ability>3</ability>
+            <classSkill>1</classSkill>
+            <rank>7</rank>
+        </skill>
+        <skill>
+            <skillID>5</skillID>
+            <name>Craft</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>6</skillID>
+            <name>Decipher Script</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>7</skillID>
+            <name>Diplomacy</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>8</skillID>
+            <name>Disable Device</name>
+            <ability>2</ability>
+        </skill>
+        <skill>
+            <skillID>9</skillID>
+            <name>Disguise</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>10</skillID>
+            <name>Escape Artist</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>6</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>11</skillID>
+            <name>Forgery</name>
+        </skill>
+        <skill>
+            <skillID>12</skillID>
+            <name>Gather Information</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>13</skillID>
+            <name>Handle Animal</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>14</skillID>
+            <name>Heal</name>
+            <ability>5</ability>
+        </skill>
+        <skill>
+            <skillID>15</skillID>
+            <name>Hide</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>16</skillID>
+            <name>Intimidate</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>17</skillID>
+            <name>Jump</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <rank>7</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>18</skillID>
+            <name>Knowledge (arcana)</name>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+        </skill>
+        <skill>
+            <skillID>19</skillID>
+            <name>Knowledge (architecture)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>20</skillID>
+            <name>Knowledge (dungeoneering)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>21</skillID>
+            <name>Knowledge (geography)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>22</skillID>
+            <name>Knowledge (history)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>23</skillID>
+            <name>Knowledge (local)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>24</skillID>
+            <name>Knowledge (nature)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>25</skillID>
+            <name>Knowledge (nobility)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>27</skillID>
+            <name>Knowledge (planes)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>26</skillID>
+            <name>Knowledge (religion)</name>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>28</skillID>
+            <name>Listen</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>29</skillID>
+            <name>Move Silently</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>30</skillID>
+            <name>Open Lock</name>
+            <ability>2</ability>
+        </skill>
+        <skill>
+            <skillID>31</skillID>
+            <name>Perform</name>
+            <ability>6</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>32</skillID>
+            <name>Profession</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+        </skill>
+        <skill>
+            <skillID>33</skillID>
+            <name>Ride</name>
+            <ability>2</ability>
+            <rank>1</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>34</skillID>
+            <name>Search</name>
+        </skill>
+        <skill>
+            <skillID>35</skillID>
+            <name>Sense Motive</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+        </skill>
+        <skill>
+            <skillID>36</skillID>
+            <name>Sleight of Hand</name>
+            <ability>2</ability>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>37</skillID>
+            <name>Speak Language</name>
+            <rank>1</rank>
+        </skill>
+        <skill>
+            <skillID>38</skillID>
+            <name>Spellcraft</name>
+            <classSkill>1</classSkill>
+            <rank>5</rank>
+        </skill>
+        <skill>
+            <skillID>39</skillID>
+            <name>Spot</name>
+            <ability>5</ability>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+        </skill>
+        <skill>
+            <skillID>40</skillID>
+            <name>Survival</name>
+            <ability>5</ability>
+        </skill>
+        <skill>
+            <skillID>41</skillID>
+            <name>Swim</name>
+            <ability>1</ability>
+            <classSkill>1</classSkill>
+            <rank>1</rank>
+            <armorPenalty>2</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>42</skillID>
+            <name>Tumble</name>
+            <ability>2</ability>
+            <classSkill>1</classSkill>
+            <rank>8</rank>
+            <armorPenalty>1</armorPenalty>
+        </skill>
+        <skill>
+            <skillID>43</skillID>
+            <name>Use Magic Device</name>
+            <ability>6</ability>
+        </skill>
+        <skill>
+            <skillID>44</skillID>
+            <name>Use Rope</name>
+            <ability>2</ability>
+        </skill>
+        <xp>49522</xp>
+        <abilities>10,14,18,12,12,18,11,</abilities>
+        <hpMax>64</hpMax>
+        <hpCurrent>64</hpCurrent>
+        <feat>
+            <name>Weapon Finesse</name>
+            <text>With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may
+                use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield,
+                its armor check penalty applies to your attack rolls.
+            </text>
+            <special>3</special>
+        </feat>
+        <feat>
+            <name>Improved Disarm</name>
+            <text>You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the
+                opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to
+                disarm your opponent.
+                Normal: See the normal disarm rules.
+            </text>
+        </feat>
+        <feat>
+            <name>Combat Reflexes</name>
+            <text>You may make a number of additional attacks of opportunity equal to your Dexterity bonus.
+                With this feat, you may also make attacks of opportunity while flat-footed.
+                Normal: A character without this feat can make only one attack of opportunity per round and can’t make
+                attacks of opportunity while flat-footed.
+            </text>
+        </feat>
+        <feat>
+            <name>Improved Initiative</name>
+            <text>You get a +4 bonus on initiative checks.</text>
+            <modifier></modifier>
+            <modifier>
+                <type>20</type>
+                <value>4</value>
+            </modifier>
+        </feat>
+        <feat>
+            <name>Stunning Fist</name>
+            <text>You must declare that you are using this feat before you make your attack roll (thus, a failed attack
+                roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude
+                saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage
+                normally. A defender who fails this saving throw is stunned for 1 round (until just before your next
+                action). A stunned character can’t act, loses any Dexterity bonus to AC, and takes a –2 penalty to AC.
+                You may attempt a stunning attack once per day for every four levels you have attained (but see
+                Special), and no more than once per round. Constructs, oozes, plants, undead, incorporeal creatures, and
+                creatures immune to critical hits cannot be stunned.
+            </text>
+        </feat>
+        <feat>
+            <name>Practiced Spell caster</name>
+            <text>Caster level +4</text>
+        </feat>
+        <feat>
+            <name>Combat Casting</name>
+            <text>You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on
+                the defensive or while you are grappling or pinned.
+            </text>
+        </feat>
+        <action>
+            <name>Unarmed</name>
+            <attack>%8+%2+1</attack>
+            <damage>1d10+3</damage>
+        </action>
+        <action>
+            <name>Flury Of Misses</name>
+            <attack>%8+%2</attack>
+            <attack>%8+%2</attack>
+            <attack>%8+%2-5</attack>
+            <damage>1d10+3</damage>
+        </action>
+        <action>
+            <name>Spiked Chain Disarm</name>
+            <attack>%8+%2+1+4+4+2</attack>
+        </action>
+        <action>
+            <name>Sai</name>
+            <attack>%8+%2</attack>
+            <damage>1d4+%1-1</damage>
+        </action>
+        <action>
+            <name>Kama</name>
+            <attack>%8+%2-1</attack>
+            <damage>1d6+%1-1</damage>
+        </action>
+        <item>
+            <name>Necklace Of Natural Attacks +1</name>
+            <slot>1</slot>
+            <damage>1d4</damage>
+        </item>
+        <item>
+            <name>Ring Of Protection +1</name>
+            <slot>1</slot>
+            <damage>1d4</damage>
+            <modifier>
+                <type>14</type>
+                <value>6</value>
+            </modifier>
+        </item>
+        <item>
+            <name>Gloves Of Dexterity +2</name>
+            <slot>1</slot>
+            <type>15</type>
+            <damage>1d4</damage>
+            <modifier>
+                <category>1</category>
+                <type>1</type>
+                <value>2</value>
+            </modifier>
+        </item>
+        <item>
+            <name>Bracers Of Armor +2</name>
+            <slot>1</slot>
+            <damage>1d4</damage>
+            <modifier>
+                <type>9</type>
+                <value>2</value>
+            </modifier>
+        </item>
+        <item>
+            <name>Ring of Jumping</name>
+            <slot>1</slot>
+            <damage>1d4</damage>
+            <modifier>
+                <category>2</category>
+                <type>17</type>
+                <value>5</value>
+            </modifier>
+        </item>
+        <container>
+            <name>Backpack</name>
+            <item>
+                <name>Wooden Stake</name>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Holy Symbol, Silver (Flargh)</name>
+                <damage>1d4</damage>
+                <value>1.0</value>
+                <text>A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and
+                    as a tool for turning undead. Each religion has its own holy symbol.
+                    Unholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is
+                    used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).
+                </text>
+            </item>
+            <item>
+                <name>Brooch</name>
+                <damage>1d4</damage>
+                <value>600.0</value>
+            </item>
+            <item>
+                <name>Chalk</name>
+                <damage>1d4</damage>
+                <value>0.01</value>
+                <quantity>3</quantity>
+            </item>
+            <item>
+                <name>Bedroll</name>
+                <damage>1d4</damage>
+                <weight>5.0</weight>
+                <value>0.1</value>
+            </item>
+            <item>
+                <name>Potion Bandolier</name>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Rations, Trail (per day)</name>
+                <damage>1d4</damage>
+                <weight>1.0</weight>
+                <value>0.5</value>
+                <quantity>5</quantity>
+            </item>
+            <item>
+                <name>Explorer’s Outfit</name>
+                <damage>1d4</damage>
+                <weight>8.0</weight>
+                <value>10.0</value>
+                <text>This is a full set of clothes for someone who never knows what to expect. It includes sturdy
+                    boots, leather breeches or a skirt, a belt, a shirt (perhaps with a vest or jacket), gloves, and a
+                    cloak. Rather than a leather skirt, a leather overtunic may be worn over a cloth skirt. The clothes
+                    have plenty of pockets (especially the cloak). The outfit also includes any extra items you might
+                    need, such as a scarf or a wide-brimmed hat.
+                </text>
+            </item>
+            <item>
+                <name>Gold</name>
+                <damage>1d4</damage>
+                <value>1060.0</value>
+            </item>
+            <item>
+                <name>Garlic Necklace</name>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Holy Water</name>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Enlarge Scroll</name>
+                <damage>1d4</damage>
+            </item>
+        </container>
+        <container>
+            <name>Weapons</name>
+            <item>
+                <name>Chain, Spiked (Masterwork)</name>
+                <type>6</type>
+                <damage>2d4</damage>
+                <damageType>2</damageType>
+                <property>1154</property>
+                <weight>10.0</weight>
+                <value>25.0</value>
+                <text>A spiked chain has reach, so you can strike opponents 10 feet away with it. In addition, unlike
+                    most other weapons with reach, it can be used against an adjacent foe.
+                    You can make trip attacks with the chain. If you are tripped during your own trip attempt, you can
+                    drop the chain to avoid being tripped.
+                    When using a spiked chain, you get a +2 bonus on opposed attack rolls made to disarm an opponent
+                    (including the roll to avoid being disarmed if such an attempt fails).
+                    You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength
+                    modifier to attack rolls with a spiked chain sized for you, even though it isn’t a light weapon for
+                    you.
+                </text>
+            </item>
+            <item>
+                <name>Sai (Silver)</name>
+                <type>4</type>
+                <damage>1d4</damage>
+                <damageType>1</damageType>
+                <range>10</range>
+                <property>2</property>
+                <weight>1.0</weight>
+                <value>1.0</value>
+                <text>With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll
+                    to avoid being disarmed if such an attempt fails).
+                    The sai is a special monk weapon. This designation gives a monk wielding a sai special options.
+                </text>
+            </item>
+            <item>
+                <name>Sai (Cold Iron)</name>
+                <type>4</type>
+                <damage>1d4</damage>
+                <damageType>1</damageType>
+                <range>10</range>
+                <property>2</property>
+                <weight>1.0</weight>
+                <value>1.0</value>
+                <text>With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll
+                    to avoid being disarmed if such an attempt fails).
+                    The sai is a special monk weapon. This designation gives a monk wielding a sai special options.
+                </text>
+            </item>
+            <item>
+                <name>Sling &#38; Bullets (Cold Iron)</name>
+                <type>7</type>
+                <damage>1d4</damage>
+                <damageType>1</damageType>
+                <range>50</range>
+                <property>2048</property>
+                <quantity>20</quantity>
+                <text>Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown
+                    weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that
+                    requires two hands and provokes attacks of opportunity.
+                    You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus,
+                    such an attack deals damage as if the weapon were designed for a creature one size category smaller
+                    than you and you take a –1 penalty on attack rolls.
+                </text>
+            </item>
+            <item>
+                <name>Nunchaku</name>
+                <type>4</type>
+                <damage>1d6</damage>
+                <damageType>1</damageType>
+                <property>2</property>
+                <weight>2.0</weight>
+                <value>2.0</value>
+                <text>The nunchaku is a special monk weapon. This designation gives a monk wielding a nunchaku special
+                    options. With a nunchaku, you get a +2 bonus on opposed attack rolls made to disarm an enemy
+                    (including the roll to avoid being disarmed if such an attempt fails).
+                </text>
+            </item>
+            <item>
+                <name>Shuriken Cold Iron</name>
+                <type>7</type>
+                <damage>1d2</damage>
+                <damageType>2</damageType>
+                <range>10</range>
+                <property>2</property>
+                <weight>0.5</weight>
+                <value>1.0</value>
+                <text>A shuriken is a special monk weapon. This designation gives a monk wielding shuriken special
+                    options. A shuriken can’t be used as a melee weapon.
+                    Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing
+                    them, crafting masterwork or otherwise special versions of them and what happens to them after they
+                    are thrown.
+                </text>
+            </item>
+            <item>
+                <name>Javelin</name>
+                <type>7</type>
+                <damage>1d6</damage>
+                <damageType>1</damageType>
+                <range>30</range>
+                <weight>2.0</weight>
+                <value>1.0</value>
+                <quantity>2</quantity>
+                <text>Since it is not designed for melee, you are treated as nonproficient with it and take a –4 penalty
+                    on attack rolls if you use a javelin as a melee weapon.
+                </text>
+            </item>
+            <item>
+                <name>Quarterstaff</name>
+                <slot>3</slot>
+                <type>6</type>
+                <damage>1d6</damage>
+                <damageType>1</damageType>
+                <property>64</property>
+                <weight>4.0</weight>
+                <text>A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if
+                    you do, you incur all the normal attack penalties associated with fighting with two weapons, just as
+                    if you were using a one-handed weapon and a light weapon. A creature wielding a quarterstaff in one
+                    hand can’t use it as a double weapon0only one end of the weapon can be used in any given round.
+                    The quarterstaff is a special monk weapon. This designation gives a monk wielding a quarterstaff
+                    special options.
+                </text>
+            </item>
+            <item>
+                <name>Kama(Silver)</name>
+                <type>4</type>
+                <damage>1d6</damage>
+                <damageType>3</damageType>
+                <property>2</property>
+                <weight>2.0</weight>
+                <value>2.0</value>
+                <text>The kama is a special monk weapon. This designation gives a monk wielding a kama special options.
+                    You can use a kama to make trip attacks. If you are tripped during your own trip attempt, you can
+                    drop the kama to avoid being tripped.
+                </text>
+            </item>
+            <item>
+                <name>Kama +2</name>
+                <damage>1d4</damage>
+            </item>
+        </container>
+        <container>
+            <name>Saddle Bags</name>
+        </container>
+        <container>
+            <name>Potions</name>
+            <item>
+                <name>Mage Armor</name>
+                <type>9</type>
+                <damage>1d4</damage>
+                <quantity>5</quantity>
+            </item>
+            <item>
+                <name>Alter Self</name>
+                <type>9</type>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Cure Moderate</name>
+                <type>9</type>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Spiderclimb</name>
+                <type>9</type>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Cats Grace</name>
+                <type>9</type>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Hide</name>
+                <type>9</type>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Neutralize Poison</name>
+                <damage>1d4</damage>
+            </item>
+            <item>
+                <name>Alchemist Fire</name>
+                <damage>1d4</damage>
+            </item>
+        </container>
+        <container>
+            <name>Wands</name>
+            <item>
+                <name>Shield50</name>
+                <damage>1d4</damage>
+                <quantity>34</quantity>
+            </item>
+            <item>
+                <name>Mage Armor</name>
+                <damage>1d4</damage>
+                <quantity>19</quantity>
+            </item>
+        </container>
+        <note>
+            <title>Languages</title>
+            <text>Common, Draconic</text>
+        </note>
+        <monster>
+            <name>Horse, Light</name>
+            <size>5</size>
+            <type>Animal</type>
+            <initiative>1</initiative>
+            <senses>low-light vision, scent</senses>
+            <ac>13</ac>
+            <flatFootedAC>12</flatFootedAC>
+            <acMods>-1 size, +1 Dex, +3 natural</acMods>
+            <hpMax>19</hpMax>
+            <hpCurrent>19</hpCurrent>
+            <hd>3d8+6</hd>
+            <fortitude>5</fortitude>
+            <reflex>4</reflex>
+            <will>2</will>
+            <speed>60 ft.</speed>
+            <attackMelee>2 hooves -2 (1d4+1*)</attackMelee>
+            <space>10 ft.</space>
+            <reach>5 ft.</reach>
+            <abilities>10,14,13,15,2,12,6,</abilities>
+            <baseAttack>2</baseAttack>
+            <grapple>8</grapple>
+            <feats>Endurance, Run</feats>
+            <skills>Listen +4, Spot +4</skills>
+            <feat>
+                <name>Carrying Capacity</name>
+                <text>A light load for a light horse is up to 150 pounds; a medium load, 151-300 pounds; and a heavy
+                    load, 301-450 pounds. A light horse can drag 2,250 pounds.
+                </text>
+            </feat>
+            <action>
+                <name>Hooves</name>
+                <attack>-2</attack>
+                <damage>1d4+1</damage>
+            </action>
+        </monster>
+        <modifier>
+            <type>9</type>
+            <value>2</value>
+        </modifier>
+        <modifier>
+            <type>13</type>
+            <value>4</value>
+            <activated>false</activated>
+        </modifier>
+        <modifier>
+            <type>9</type>
+            <value>4</value>
+        </modifier>
+        <modifier>
+            <category>1</category>
+            <value>2</value>
+            <activated>false</activated>
+        </modifier>
+        <modifier>
+            <category>1</category>
+            <type>1</type>
+            <value>-2</value>
+            <activated>false</activated>
+        </modifier>
+    </character>
+</pc>

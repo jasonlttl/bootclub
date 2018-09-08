@@ -35,12 +35,13 @@
 
         <div class="row">
           <div class="col-sm">
+            <h2>Abilities</h2>
             <table>
               <thead>
                 <tr>
-                  <td>Ability</td>
-                  <td>Score</td>
-                  <td>Bonus</td>
+                  <th>Ability</th>
+                  <th>Score</th>
+                  <th>Bonus</th>
                 </tr>
               </thead>
               <tbody>
@@ -55,9 +56,39 @@
             </table>
           </div>
           <div class="col-sm">
+            <h2>Attacks</h2>
+            <table>
+              <thead>
+                <th>Name</th>
+                <th>To Hit</th>
+                <th>Damage</th>
+              </thead>
+              <tbody>
+                {% for action_name, action in actions %}
+                  <tr>
+                    <td>{{ action_name }}</td>
+                    <td>
+                      {% for attack in action.attacks %}
+                        {{ attack }} /
+                      {% endfor %}
+                    </td>
+                    <td>{{ action.damage }}</td>
+                  </tr>
+                {% endfor %}
 
+              </tbody>
+            </table>
           </div>
           <div class="col-sm">
+            <h2>Saves</h2>
+            <table>
+              {% for save, val in saves %}
+                <tr>
+                  <td>{{ save }}</td>
+                  <td>{{ val }}</td>
+                </tr>
+              {% endfor %}
+            </table>
           </div>
         </div>
 
@@ -107,7 +138,6 @@
                   <th>Rank</th>
                   <th>Ability</th>
                   <th>Modifiers</th>
-                  <th>Context</th>
                 </tr>
               </thead>
               <tbody>
@@ -162,17 +192,35 @@
                     {% if skill.modifier > 0 %}+ {{ skill.modifier }}{% endif %}
                     {% if skill.modifier < 0 %}- {{ -1*skill.modifier }}{% endif %}
                   </td>
-                  <td>
-
-                  </td>
-                  <td>
-                    Ctxt
-                  </td>
                 </tr>
                 {% endif %}
               {% endfor %}
               </tbody>
             </table>
+
+            <h2>Spells</h2>
+            {% for class, class_spells in spells %}
+              {% for level, level_spells in class_spells %}
+                <h3>{{ class }} - Level {{ level }}</h3>
+                <ul>
+                  {% for spell in level_spells %}
+                    <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="{{ spell.name }}"
+                        data-content="{{ spell.text }}">
+                        {{ spell.name }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endfor %}
+            {% endfor %}
+
+
+
           </div>
           <div class="col-sm">
             <h2>Features</h2>

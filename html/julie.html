@@ -1,0 +1,2464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Jules</title>
+    <meta name="author" content="Me">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+        $('.popover-dismiss').popover({
+          trigger: 'focus'
+        })
+      })
+    </script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+
+        <h1> Jules </h1>
+
+        <div class="row">
+          <div class="col-sm">
+            <h2>Abilities</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Ability</th>
+                  <th>Score</th>
+                  <th>Bonus</th>
+                </tr>
+              </thead>
+              <tbody>
+                            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>2</td>
+              </tr>
+                            <tr>
+                <td>DEX</td>
+                <td>18</td>
+                <td>4</td>
+              </tr>
+                            <tr>
+                <td>CON</td>
+                <td>12</td>
+                <td>1</td>
+              </tr>
+                            <tr>
+                <td>INT</td>
+                <td>12</td>
+                <td>1</td>
+              </tr>
+                            <tr>
+                <td>WIS</td>
+                <td>18</td>
+                <td>4</td>
+              </tr>
+                            <tr>
+                <td>CHA</td>
+                <td>11</td>
+                <td>0</td>
+              </tr>
+                            </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+            <h2>Attacks</h2>
+            <table>
+              <thead>
+                <th>Name</th>
+                <th>To Hit</th>
+                <th>Damage</th>
+              </thead>
+              <tbody>
+                                  <tr>
+                    <td>Unarmed</td>
+                    <td>
+                                              +11 /
+                                          </td>
+                    <td>1d10+3</td>
+                  </tr>
+                                  <tr>
+                    <td>Flury Of Misses</td>
+                    <td>
+                                              +10 /
+                                              +10 /
+                                              +5 /
+                                          </td>
+                    <td>1d10+3</td>
+                  </tr>
+                                  <tr>
+                    <td>Spiked Chain Disarm</td>
+                    <td>
+                                              +21 /
+                                          </td>
+                    <td></td>
+                  </tr>
+                                  <tr>
+                    <td>Sai</td>
+                    <td>
+                                              +10 /
+                                          </td>
+                    <td>1d4+%1-1</td>
+                  </tr>
+                                  <tr>
+                    <td>Kama</td>
+                    <td>
+                                              +9 /
+                                          </td>
+                    <td>1d6+%1-1</td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+          <div class="col-sm">
+            <h2>Saves</h2>
+            <table>
+                              <tr>
+                  <td>fortitude</td>
+                  <td>7</td>
+                </tr>
+                              <tr>
+                  <td>reflex</td>
+                  <td>12</td>
+                </tr>
+                              <tr>
+                  <td>will</td>
+                  <td>14</td>
+                </tr>
+                          </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <h2>Equipment</h2>
+            <h3>Equipped</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Necklace Of Natural Attacks +1"
+                  data-content="">
+                  Necklace Of Natural Attacks +1
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Ring Of Protection +1"
+                  data-content="">
+                  Ring Of Protection +1
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Gloves Of Dexterity +2"
+                  data-content="">
+                  Gloves Of Dexterity +2
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Bracers Of Armor +2"
+                  data-content="">
+                  Bracers Of Armor +2
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Ring of Jumping"
+                  data-content="">
+                  Ring of Jumping
+                </a>
+              </li>
+                        </ul>
+                          <h3>Backpack</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Wooden Stake"
+                    data-content="">
+                    Wooden Stake
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Holy Symbol, Silver (Flargh)"
+                    data-content="A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and
+                    as a tool for turning undead. Each religion has its own holy symbol.
+                    Unholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is
+                    used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).
+                ">
+                    Holy Symbol, Silver (Flargh)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Brooch"
+                    data-content="">
+                    Brooch
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Chalk"
+                    data-content="">
+                    Chalk
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Bedroll"
+                    data-content="">
+                    Bedroll
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Potion Bandolier"
+                    data-content="">
+                    Potion Bandolier
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Rations, Trail (per day)"
+                    data-content="">
+                    Rations, Trail (per day)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Explorer’s Outfit"
+                    data-content="This is a full set of clothes for someone who never knows what to expect. It includes sturdy
+                    boots, leather breeches or a skirt, a belt, a shirt (perhaps with a vest or jacket), gloves, and a
+                    cloak. Rather than a leather skirt, a leather overtunic may be worn over a cloth skirt. The clothes
+                    have plenty of pockets (especially the cloak). The outfit also includes any extra items you might
+                    need, such as a scarf or a wide-brimmed hat.
+                ">
+                    Explorer’s Outfit
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Gold"
+                    data-content="">
+                    Gold
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Garlic Necklace"
+                    data-content="">
+                    Garlic Necklace
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Holy Water"
+                    data-content="">
+                    Holy Water
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Enlarge Scroll"
+                    data-content="">
+                    Enlarge Scroll
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Weapons</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Chain, Spiked (Masterwork)"
+                    data-content="A spiked chain has reach, so you can strike opponents 10 feet away with it. In addition, unlike
+                    most other weapons with reach, it can be used against an adjacent foe.
+                    You can make trip attacks with the chain. If you are tripped during your own trip attempt, you can
+                    drop the chain to avoid being tripped.
+                    When using a spiked chain, you get a +2 bonus on opposed attack rolls made to disarm an opponent
+                    (including the roll to avoid being disarmed if such an attempt fails).
+                    You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength
+                    modifier to attack rolls with a spiked chain sized for you, even though it isn’t a light weapon for
+                    you.
+                ">
+                    Chain, Spiked (Masterwork)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Sai (Silver)"
+                    data-content="With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll
+                    to avoid being disarmed if such an attempt fails).
+                    The sai is a special monk weapon. This designation gives a monk wielding a sai special options.
+                ">
+                    Sai (Silver)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Sai (Cold Iron)"
+                    data-content="With a sai, you get a +4 bonus on opposed attack rolls made to disarm an enemy (including the roll
+                    to avoid being disarmed if such an attempt fails).
+                    The sai is a special monk weapon. This designation gives a monk wielding a sai special options.
+                ">
+                    Sai (Cold Iron)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Sling &amp; Bullets (Cold Iron)"
+                    data-content="Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown
+                    weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that
+                    requires two hands and provokes attacks of opportunity.
+                    You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus,
+                    such an attack deals damage as if the weapon were designed for a creature one size category smaller
+                    than you and you take a –1 penalty on attack rolls.
+                ">
+                    Sling &amp; Bullets (Cold Iron)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Nunchaku"
+                    data-content="The nunchaku is a special monk weapon. This designation gives a monk wielding a nunchaku special
+                    options. With a nunchaku, you get a +2 bonus on opposed attack rolls made to disarm an enemy
+                    (including the roll to avoid being disarmed if such an attempt fails).
+                ">
+                    Nunchaku
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Shuriken Cold Iron"
+                    data-content="A shuriken is a special monk weapon. This designation gives a monk wielding shuriken special
+                    options. A shuriken can’t be used as a melee weapon.
+                    Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing
+                    them, crafting masterwork or otherwise special versions of them and what happens to them after they
+                    are thrown.
+                ">
+                    Shuriken Cold Iron
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Javelin"
+                    data-content="Since it is not designed for melee, you are treated as nonproficient with it and take a –4 penalty
+                    on attack rolls if you use a javelin as a melee weapon.
+                ">
+                    Javelin
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Quarterstaff"
+                    data-content="A quarterstaff is a double weapon. You can fight with it as if fighting with two weapons, but if
+                    you do, you incur all the normal attack penalties associated with fighting with two weapons, just as
+                    if you were using a one-handed weapon and a light weapon. A creature wielding a quarterstaff in one
+                    hand can’t use it as a double weapon0only one end of the weapon can be used in any given round.
+                    The quarterstaff is a special monk weapon. This designation gives a monk wielding a quarterstaff
+                    special options.
+                ">
+                    Quarterstaff
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Kama(Silver)"
+                    data-content="The kama is a special monk weapon. This designation gives a monk wielding a kama special options.
+                    You can use a kama to make trip attacks. If you are tripped during your own trip attempt, you can
+                    drop the kama to avoid being tripped.
+                ">
+                    Kama(Silver)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Kama +2"
+                    data-content="">
+                    Kama +2
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Saddle Bags</h3>
+              <ul>
+                            </ul>
+                          <h3>Potions</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Mage Armor"
+                    data-content="">
+                    Mage Armor
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Alter Self"
+                    data-content="">
+                    Alter Self
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Cure Moderate"
+                    data-content="">
+                    Cure Moderate
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Spiderclimb"
+                    data-content="">
+                    Spiderclimb
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Cats Grace"
+                    data-content="">
+                    Cats Grace
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Hide"
+                    data-content="">
+                    Hide
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Neutralize Poison"
+                    data-content="">
+                    Neutralize Poison
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Alchemist Fire"
+                    data-content="">
+                    Alchemist Fire
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Wands</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Shield50"
+                    data-content="">
+                    Shield50
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Mage Armor"
+                    data-content="">
+                    Mage Armor
+                  </a>
+                </li>
+                            </ul>
+                      </div>
+          <div class="col-sm">
+            <h2>Skills</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Total</th>
+                  <th>Skill</th>
+                  <th>Rank</th>
+                  <th>Ability</th>
+                  <th>Modifiers</th>
+                </tr>
+              </thead>
+              <tbody>
+
+                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Appraise"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Appraise
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    5
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Balance"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Balance
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                    + 2                                      </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    0
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Bluff"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                            </table>">
+                      Bluff
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Climb"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Climb
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    8
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Concentration"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>7</td>
+                          </tr>
+                          <tr>
+                            <td>CON</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Concentration
+                    </a>
+                  </td>
+                  <td>
+                    7
+                  </td>
+                  <td>
+                    CON
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Craft"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Craft
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Diplomacy"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Diplomacy
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                    + 2                                      </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    0
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Disguise"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                            </table>">
+                      Disguise
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    9
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Escape Artist"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>6</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Escape Artist
+                    </a>
+                  </td>
+                  <td>
+                    6
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Forgery"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Forgery
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    0
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Gather Information"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                            </table>">
+                      Gather Information
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                                                          </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    4
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Heal"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Heal
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    3
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Hide"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Hide
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    0
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Intimidate"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                            </table>">
+                      Intimidate
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    10
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Jump"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>7</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Jump
+                    </a>
+                  </td>
+                  <td>
+                    7
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    2
+                    + 2                                      </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    6
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Knowledge (arcana)"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Knowledge (arcana)
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                                                                                                                                                                                                                                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    12
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Listen"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Listen
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    3
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Move Silently"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Move Silently
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    0
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Perform"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>CHA</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                                                                            </table>">
+                      Perform
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    CHA
+                  </td>
+                  <td>
+                    0
+                                                          </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    4
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Ride"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                            </table>">
+                      Ride
+                    </a>
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Search"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Search
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    9
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Sense Motive"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Sense Motive
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    2
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Speak Language"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                            </table>">
+                      Speak Language
+                    </a>
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    8
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Spellcraft"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>5</td>
+                          </tr>
+                          <tr>
+                            <td>INT</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Spellcraft
+                    </a>
+                  </td>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    INT
+                  </td>
+                  <td>
+                    1
+                    + 2                                      </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    12
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Spot"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Spot
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    4
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Survival"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>WIS</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Survival
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    WIS
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    1
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Swim"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>1</td>
+                          </tr>
+                          <tr>
+                            <td>STR</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-2</td>
+                          </tr>
+                                                                            </table>">
+                      Swim
+                    </a>
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    STR
+                  </td>
+                  <td>
+                    2
+                                                          </td>
+                </tr>
+                                                              <tr>
+                  <td style="width:2em;text-align:left;">
+                    13
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Tumble"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>8</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                    <tr>
+                            <td>Armor Penalty</td>
+                            <td style='text-align:right;'>-1</td>
+                          </tr>
+                                                                              <tr>
+                            <td>Synergy</td>
+                            <td style='text-align:right;'>2</td>
+                          </tr>
+                                                  </table>">
+                      Tumble
+                    </a>
+                  </td>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                    + 2                                      </td>
+                </tr>
+                                                                                            <tr>
+                  <td style="width:2em;text-align:left;">
+                    4
+                  </td>
+                  <td>
+                    <a
+                      data-toggle="popover"
+                      data-trigger="focus"
+                      tabindex="0"
+                      title="Use Rope"
+                      data-html="true"
+                      data-content="
+                        <table>
+                          <tr>
+                            <td>Rank</td>
+                            <td style='text-align:right;'>0</td>
+                          </tr>
+                          <tr>
+                            <td>DEX</td>
+                            <td style='text-align:right;'>4</td>
+                          </tr>
+                                                                            </table>">
+                      Use Rope
+                    </a>
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    DEX
+                  </td>
+                  <td>
+                    4
+                                                          </td>
+                </tr>
+                                            </tbody>
+            </table>
+
+            <h2>Spells</h2>
+                                          <h3>Wizard - Level 0</h3>
+                <ul>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Acid Splash"
+                        data-content="You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your
+                    target. The orb deals 1d3 points of acid damage.
+                ">
+                        Acid Splash
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Arcane Mark"
+                        data-content="This spell allows you to inscribe your personal rune or mark, which can consist of no more than
+                    six characters. The writing can be visible or invisible. An arcane mark spell enables you to etch
+                    the rune upon any substance without harm to the material upon which it is placed. If an invisible
+                    mark is made, a detect magic spell causes it to glow and be visible, though not necessarily
+                    understandable.
+                    See invisibility, true seeing, a gem of seeing, or a robe of eyes likewise allows the user to see an
+                    invisible arcane mark. A read magic spell reveals the words, if any. The mark cannot be dispelled,
+                    but it can be removed by the caster or by an erase spell.
+                    If an arcane mark is placed on a living being, normal wear gradually causes the effect to fade in
+                    about a month.
+                    Arcane mark must be cast on an object prior to casting instant summons on the same object (see that
+                    spell description for details).
+                ">
+                        Arcane Mark
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Dancing Lights"
+                        data-content="Depending on the version selected, you create up to four lights that resemble lanterns or torches
+                    (and cast that amount of light), or up to four glowing spheres of light (which look like
+                    will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within
+                    a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration
+                    required): forward or back, up or down, straight or turning corners, or the like. The lights can
+                    move up to 100 feet per round. A light winks out if the distance between you and it exceeds the
+                    spell’s range.
+                    Dancing lights can be made permanent with a permanency spell.
+                ">
+                        Dancing Lights
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Daze"
+                        data-content="This enchantment clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes
+                    no actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers
+                    get no special advantage against it.
+                    Material Component: A pinch of wool or similar substance.
+                ">
+                        Daze
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Detect Magic"
+                        data-content="You detect magical auras. The amount of information revealed depends on how long you study a
+                    particular area or subject.
+                    1st Round: Presence or absence of magical auras.
+                    2nd Round: Number of different magical auras and the power of the most potent aura.
+                    3rd Round: The strength and location of each aura. If the items or creatures bearing the auras are
+                    in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in
+                    each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell
+                    effect.)
+                    Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal
+                    weaker auras.
+                    Aura Strength: An aura’s power depends on a spell’s functioning spell level or an item’s caster
+                    level. If an aura falls into more than one category, detect magic indicates the stronger of the two.
+                    Lingering Aura: A magical aura lingers after its original source dissipates (in the case of a spell)
+                    or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a
+                    location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the
+                    aura lingers at this dim level depends on its original power:
+                    Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration
+                    spell registers.
+                    Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot
+                    of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
+                    Detect magic can be made permanent with a permanency spell.
+                ">
+                        Detect Magic
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Detect Poison"
+                        data-content="You determine whether a creature, object, or area has been poisoned or is poisonous. You can
+                    determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy)
+                    skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft
+                    (alchemy) check prior to the Wisdom check.
+                    The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead,
+                    or 3 feet of wood or dirt blocks it.
+                ">
+                        Detect Poison
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Disrupt Undead"
+                        data-content="You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray
+                    hits an undead creature, it deals 1d6 points of damage to it.
+                ">
+                        Disrupt Undead
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Flare"
+                        data-content="This cantrip creates a burst of light. If you cause the light to burst directly in front of a
+                    single creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
+                    Sightless creatures, as well as creatures already dazzled, are not affected by flare.
+                ">
+                        Flare
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Ghost Sound"
+                        data-content="Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at
+                    a fixed place. You choose what type of sound ghost sound creates when casting it and cannot
+                    thereafter change the sound’s basic character.
+                    The volume of sound created depends on your level. You can produce as much noise as four normal
+                    humans per caster level (maximum twenty humans). Thus, talking, singing, shouting, walking,
+                    marching, or running sounds can be created. The noise a ghost sound spell produces can be virtually
+                    any type of sound within the volume limit. A horde of rats running and squeaking is about the same
+                    volume as eight humans running and shouting. A roaring lion is equal to the noise from sixteen
+                    humans, while a roaring dire tiger is equal to the noise from twenty humans.
+                    Ghost sound can enhance the effectiveness of a silent image spell.
+                    Ghost sound can be made permanent with a permanency spell.
+                    Material Component: A bit of wool or a small lump of wax.
+                ">
+                        Ghost Sound
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Light"
+                        data-content="This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and
+                    dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be
+                    cast on a movable object. Light taken into an area of magical darkness does not function.
+                    A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the
+                    darkness descriptor) of an equal or lower level.
+                    Arcane Material Component: A firefly or a piece of phosphorescent moss.
+                ">
+                        Light
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Mage Hand"
+                        data-content="You point your finger at an object and can lift it and move it at will from a distance. As a move
+                    action, you can propel the object as far as 15 feet in any direction, though the spell ends if the
+                    distance between you and the object ever exceeds the spell’s range.
+                ">
+                        Mage Hand
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Mending"
+                        data-content="Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp
+                    wood spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a
+                    slender dagger, providing but one break exists.
+                    Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A
+                    hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a
+                    magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic
+                    rods, staffs, or wands, nor does it affect creatures (including constructs).
+                ">
+                        Mending
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Message"
+                        data-content="You can whisper messages and receive whispered replies with little chance of being overheard. You
+                    point your finger at each creature you want to receive the message. When you whisper, the whispered
+                    message is audible to all targeted creatures within range. Magical silence, 1 foot of stone, 1 inch
+                    of common metal (or a thin sheet of lead), or 3 feet of wood or dirt blocks the spell. The message
+                    does not have to travel in a straight line. It can circumvent a barrier if there is an open path
+                    between you and the subject, and the path’s entire length lies within the spell’s range. The
+                    creatures that receive the message can whisper a reply that you hear. The spell transmits sound, not
+                    meaning. It doesn’t transcend language barriers.
+                    Note: To speak a message, you must mouth the words and whisper, possibly allowing observers the
+                    opportunity to read your lips.
+                    Focus: A short piece of copper wire.
+                ">
+                        Message
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Open/Close"
+                        data-content="You can open or close (your choice) a door, chest, box, window, bag, pouch, bottle, barrel, or
+                    other container. If anything resists this activity (such as a bar on a door or a lock on a chest),
+                    the spell fails. In addition, the spell can only open and close things weighing 30 pounds or less.
+                    Thus, doors, chests, and similar objects sized for enormous creatures may be beyond this spell’s
+                    ability to affect.
+                    Focus: A brass key.
+                ">
+                        Open/Close
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Prestidigitation"
+                        data-content="Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a
+                    prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are
+                    minor and have severe limitations. A prestidigitation can slowly lift 1 pound of material. It can
+                    color, clean, or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound of
+                    nonliving material. It cannot deal damage or affect the concentration of spellcasters.
+                    Prestidigitation can create small objects, but they look crude and artificial. The materials created
+                    by a prestidigitation spell are extremely fragile, and they cannot be used as tools, weapons, or
+                    spell components. Finally, a prestidigitation lacks the power to duplicate any other spell effects.
+                    Any actual change to an object (beyond just moving, cleaning, or soiling it) persists only 1 hour.
+                ">
+                        Prestidigitation
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Ray of Frost"
+                        data-content="A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged
+                    touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.
+                ">
+                        Ray of Frost
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Read Magic"
+                        data-content="By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons,
+                    and the like—that would otherwise be unintelligible. This deciphering does not normally invoke the
+                    magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore,
+                    once the spell is cast and you have read the magical inscription, you are thereafter able to read
+                    that particular writing without recourse to the use of read magic. You can read at the rate of one
+                    page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13
+                    Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with
+                    a Spellcraft check (DC 10 + spell level).
+                    Read magic can be made permanent with a permanency spell.
+                    Focus: A clear crystal or mineral prism.
+                ">
+                        Read Magic
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Resistance"
+                        data-content="You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance
+                    bonus on saves.
+                    Resistance can be made permanent with a permanency spell.
+                    Arcane Material Component: A miniature cloak.
+                ">
+                        Resistance
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Touch of Fatigue"
+                        data-content="You channel negative energy through your touch, fatiguing the target. You must succeed on a touch
+                    attack to strike a target.
+                    The subject is immediately fatigued for the spell’s duration.
+                    This spell has no effect on a creature that is already fatigued. Unlike with normal fatigue, the
+                    effect ends as soon as the spell’s duration expires.
+                    Material Component: A drop of sweat.
+                ">
+                        Touch of Fatigue
+                      </a>
+                    </li>
+                                  </ul>
+                              <h3>Wizard - Level 1</h3>
+                <ul>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Chill Touch"
+                        data-content="A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.
+                    Each touch channels negative energy that deals 1d6 points of damage. The touched creature also takes
+                    1 point of Strength damage unless it makes a successful Fortitude saving throw. You can use this
+                    melee touch attack up to one time per level.
+                    An undead creature you touch takes no damage of either sort, but it must make a successful Will
+                    saving throw or flee as if panicked for 1d4 rounds +1 round per caster level.
+                ">
+                        Chill Touch
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Shield"
+                        data-content="Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you.
+                    It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC.
+                    This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no
+                    armor check penalty or arcane spell failure chance. Unlike with a normal tower shield, you can’t use
+                    the shield spell for cover.
+                ">
+                        Shield
+                      </a>
+                    </li>
+                                      <li>
+                      <a
+                        data-toggle="popover"
+                        data-trigger="focus"
+                        tabindex="0"
+                        title="Shocking Grasp"
+                        data-content="Your successful melee touch attack deals 1d6 points of electricity damage per caster level
+                    (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is
+                    wearing metal armor (or made out of metal, carrying a lot of metal, or the like).
+                ">
+                        Shocking Grasp
+                      </a>
+                    </li>
+                                  </ul>
+                          
+
+
+          </div>
+          <div class="col-sm">
+            <h2>Features</h2>
+            <h3>Human</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Bonus Feat"
+                  data-content="1 extra feat at 1st level.">
+                  Bonus Feat
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Skilled"
+                  data-content="4 extra skill points at 1st level and 1 extra skill point at each additional level.">
+                  Skilled
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Languages"
+                  data-content="Common. Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak
+                    Language skill.
+                ">
+                  Languages
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Favored Class"
+                  data-content="Any. When determining whether a multiclass human takes an experience point penalty, his or her
+                    highest-level class does not count.
+                ">
+                  Favored Class
+                </a>
+              </li>
+                        </ul>
+
+                          <h3>Monk (8)</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Weapon and Armor Proficiency"
+                    data-content="Monks are proficient with club, crossbow (light or heavy), dagger, handaxe, javelin, kama,
+                    nunchaku, quarterstaff, sai, shuriken, siangham, and sling.
+                    Monks are not proficient with any armor or shields
+                    When wearing armor, using a shield, or carrying a medium or heavy load, a monk loses her AC bonus,
+                    as well as her fast movement and flurry of blows abilities.
+                ">
+                    Weapon and Armor Proficiency
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="AC Bonus (Ex)"
+                    data-content="When unarmored and unencumbered, the monk adds her Wisdom bonus (if any) to her AC. In addition, a
+                    monk gains a +1 bonus to AC at 5th level. This bonus increases by 1 for every five monk levels
+                    thereafter (+2 at 10th, +3 at 15th, and +4 at 20th level).
+                    These bonuses to AC apply even against touch attacks or when the monk is flat-footed. She loses
+                    these bonuses when she is immobilized or helpless, when she wears any armor, when she carries a
+                    shield, or when she carries a medium or heavy load.
+                ">
+                    AC Bonus (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Flurry of Blows (Ex)"
+                    data-content="When unarmored, a monk may strike with a flurry of blows at the expense of accuracy. When doing
+                    so, she may make one extra attack in a round at her highest base attack bonus, but this attack takes
+                    a -2 penalty, as does each other attack made that round. The resulting modified base attack bonuses
+                    are shown in the Flurry of Blows Attack Bonus column on Table: The Monk. This penalty applies for 1
+                    round, so it also affects attacks of opportunity the monk might make before her next action. When a
+                    monk reaches 5th level, the penalty lessens to -1, and at 9th level it disappears. A monk must use a
+                    full attack action to strike with a flurry of blows.
+                    When using flurry of blows, a monk may attack only with unarmed strikes or with special monk weapons
+                    (kama, nunchaku, quarterstaff, sai, shuriken, and siangham). She may attack with unarmed strikes and
+                    special monk weapons interchangeably as desired. When using weapons as part of a flurry of blows, a
+                    monk applies her Strength bonus (not Str bonus × 1½ or ×½) to her damage rolls for all successful
+                    attacks, whether she wields a weapon in one or both hands. The monk can’t use any weapon other than
+                    a special monk weapon as part of a flurry of blows.
+                    In the case of the quarterstaff, each end counts as a separate weapon for the purpose of using the
+                    flurry of blows ability. Even though the quarterstaff requires two hands to use, a monk may still
+                    intersperse unarmed strikes with quarterstaff strikes, assuming that she has enough attacks in her
+                    flurry of blows routine to do so.
+                    Greater Flurry. When a monk reaches 11th level, her flurry of blows ability improves. In addition to
+                    the standard single extra attack she gets from flurry of blows, she gets a second extra attack at
+                    her full base attack bonus.
+                ">
+                    Flurry of Blows (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Unarmed Strike"
+                    data-content="At 1st level, a monk gains Improved Unarmed Strike as a bonus feat. A monk’s attacks may be with
+                    either fist interchangeably or even from elbows, knees, and feet. This means that a monk may even
+                    make unarmed strikes with her hands full. There is no such thing as an off-hand attack for a monk
+                    striking unarmed. A monk may thus apply her full Strength bonus on damage rolls for all her unarmed
+                    strikes.
+                    Usually a monk’s unarmed strikes deal lethal damage, but she can choose to deal nonlethal damage
+                    instead with no penalty on her attack roll. She has the same choice to deal lethal or nonlethal
+                    damage while grappling.
+                    A monk’s unarmed strike is treated both as a manufactured weapon and a natural weapon for the
+                    purpose of spells and effects that enhance or improve either manufactured weapons or natural
+                    weapons.
+                    A monk also deals more damage with her unarmed strikes than a normal person would, as shown on
+                    Table: The Monk. The unarmed damage on Table: The Monk is for Medium monks. A Small monk deals less
+                    damage than the amount given there with her unarmed attacks, while a Large monk deals more damage;
+                    see Table: Small or Large Monk Unarmed Damage.
+                ">
+                    Unarmed Strike
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Bonus Feat"
+                    data-content="At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At 2nd
+                    level, she may select either Combat Reflexes or Deflect Arrows as a bonus feat. At 6th level, she
+                    may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not have any of the
+                    prerequisites normally required for these feats to select them.
+                ">
+                    Bonus Feat
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Evasion (Ex)"
+                    data-content="At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that
+                    normally deals half damage on a successful save, she instead takes no damage. Evasion can be used
+                    only if a monk is wearing light armor or no armor. A helpless monk does not gain the benefit of
+                    evasion.
+                ">
+                    Evasion (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Fast Movement (Ex)"
+                    data-content="At 3rd level, a monk gains an enhancement bonus to her speed, as shown on Table: The Monk. A monk
+                    in armor or carrying a medium or heavy load loses this extra speed.
+                ">
+                    Fast Movement (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Still Mind (Ex)"
+                    data-content="A monk of 3rd level or higher gains a +2 bonus on saving throws against spells and effects from
+                    the school of enchantment.
+                ">
+                    Still Mind (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Ki Strike (Su)"
+                    data-content="At 4th level, a monk’s unarmed attacks are empowered with ki. Her unarmed attacks are treated as
+                    magic weapons for the purpose of dealing damage to creatures with damage reduction. Ki strike
+                    improves with the character’s monk level. At 10th level, her unarmed attacks are also treated as
+                    lawful weapons for the purpose of dealing damage to creatures with damage reduction. At 16th level,
+                    her unarmed attacks are treated as adamantine weapons for the purpose of dealing damage to creatures
+                    with damage reduction and bypassing hardness.
+                ">
+                    Ki Strike (Su)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Slow Fall (Ex)"
+                    data-content="At 4th level or higher, a monk within arm’s reach of a wall can use it to slow her descent. When
+                    first using this ability, she takes damage as if the fall were 20 feet shorter than it actually is.
+                    The monk’s ability to slow her fall (that is, to reduce the effective distance of the fall when next
+                    to a wall) improves with her monk level until at 20th level she can use a nearby wall to slow her
+                    descent and fall any distance without harm.
+                ">
+                    Slow Fall (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Purity of Body (Ex)"
+                    data-content="At 5th level, a monk gains immunity to all diseases except for supernatural and magical
+                    diseases.
+                ">
+                    Purity of Body (Ex)
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Wholeness of Body (Su)"
+                    data-content="At 7th level or higher, a monk can heal her own wounds. She can heal a number of hit points of
+                    damage equal to twice her current monk level each day, and she can spread this healing out among
+                    several uses.
+                ">
+                    Wholeness of Body (Su)
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Wizard (1)</h3>
+              <ul>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Weapon and Armor Proficiency"
+                    data-content="Wizards are proficient with the club, dagger, heavy crossbow, light crossbow, and quarterstaff,
+                    but not with any type of armor or shield. Armor of any type interferes with a wizard’s movements,
+                    which can cause her spells with somatic components to fail.
+                ">
+                    Weapon and Armor Proficiency
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Spells"
+                    data-content="A wizard casts arcane spells which are drawn from the sorcerer/wizard spell list. A wizard must
+                    choose and prepare her spells ahead of time (see below).
+                    To learn, prepare, or cast a spell, the wizard must have an Intelligence score equal to at least 10
+                    + the spell level. The Difficulty Class for a saving throw against a wizard’s spell is 10 + the
+                    spell level + the wizard’s Intelligence modifier.
+                    Like other spellcasters, a wizard can cast only a certain number of spells of each spell level per
+                    day. Her base daily spell allotment is given on Table: The Wizard. In addition, she receives bonus
+                    spells per day if she has a high Intelligence score.
+                    Unlike a bard or sorcerer, a wizard may know any number of spells. She must choose and prepare her
+                    spells ahead of time by getting a good night’s sleep and spending 1 hour studying her spellbook.
+                    While studying, the wizard decides which spells to prepare.
+                ">
+                    Spells
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    data-toggle="popover"
+                    data-trigger="focus"
+                    tabindex="0"
+                    title="Spellbooks"
+                    data-content="A wizard must study her spellbook each day to prepare her spells. She cannot prepare any spell not
+                    recorded in her spellbook, except for read magic, which all wizards can prepare from memory.
+                    A wizard begins play with a spellbook containing all 0-level wizard spells (except those from her
+                    prohibited school or schools, if any; see School Specialization, below) plus three 1st-level spells
+                    of your choice. For each point of Intelligence bonus the wizard has, the spellbook holds one
+                    additional 1st-level spell of your choice. At each new wizard level, she gains two new spells of any
+                    spell level or levels that she can cast (based on her new wizard level) for her spellbook. At any
+                    time, a wizard can also add spells found in other wizards’ spellbooks to her own.
+                ">
+                    Spellbooks
+                  </a>
+                </li>
+                            </ul>
+                          <h3>Enlightened Fist (1)</h3>
+              <ul>
+                            </ul>
+            
+            <h3>Feats</h3>
+            <ul>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Weapon Finesse"
+                  data-content="With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may
+                use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield,
+                its armor check penalty applies to your attack rolls.
+            ">
+                  Weapon Finesse
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Improved Disarm"
+                  data-content="You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the
+                opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to
+                disarm your opponent.
+                Normal: See the normal disarm rules.
+            ">
+                  Improved Disarm
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Combat Reflexes"
+                  data-content="You may make a number of additional attacks of opportunity equal to your Dexterity bonus.
+                With this feat, you may also make attacks of opportunity while flat-footed.
+                Normal: A character without this feat can make only one attack of opportunity per round and can’t make
+                attacks of opportunity while flat-footed.
+            ">
+                  Combat Reflexes
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Improved Initiative"
+                  data-content="You get a +4 bonus on initiative checks.">
+                  Improved Initiative
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Stunning Fist"
+                  data-content="You must declare that you are using this feat before you make your attack roll (thus, a failed attack
+                roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude
+                saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage
+                normally. A defender who fails this saving throw is stunned for 1 round (until just before your next
+                action). A stunned character can’t act, loses any Dexterity bonus to AC, and takes a –2 penalty to AC.
+                You may attempt a stunning attack once per day for every four levels you have attained (but see
+                Special), and no more than once per round. Constructs, oozes, plants, undead, incorporeal creatures, and
+                creatures immune to critical hits cannot be stunned.
+            ">
+                  Stunning Fist
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Practiced Spell caster"
+                  data-content="Caster level +4">
+                  Practiced Spell caster
+                </a>
+              </li>
+                          <li>
+                <a
+                  data-toggle="popover"
+                  data-trigger="focus"
+                  tabindex="0"
+                  title="Combat Casting"
+                  data-content="You get a +4 bonus on Concentration checks made to cast a spell or use a spell-like ability while on
+                the defensive or while you are grappling or pinned.
+            ">
+                  Combat Casting
+                </a>
+              </li>
+                        </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
