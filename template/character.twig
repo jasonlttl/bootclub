@@ -32,7 +32,13 @@
       <div class="container">
 
         <h1> {{ character.name }} </h1>
-
+        <p>
+          Experience: {{ character.xp }} <br/>
+          Class/Levels:
+          {% for class in character.class %}
+            {{ class.name }}/{{ class.level | default('1')  }} &nbsp;&nbsp;&nbsp;
+          {% endfor %}
+        </p>
         <div class="row">
           <div class="col-sm">
             <h2>Abilities</h2>

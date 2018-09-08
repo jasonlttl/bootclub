@@ -73,7 +73,7 @@ function actions($xml) {
       foreach ($map as $key=>$val){
         $attack = str_replace($key, $val, $attack);
       }
-      print $attack;
+      //print $attack;
       $attack = eval("return {$attack};");
       $attacks[] = "+" . $attack;
     }
